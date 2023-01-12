@@ -44,9 +44,7 @@ public class soru {
                     break;
 
                 } else {
-
                     ogrenci_notlari.add(not);
-
                     index++;
 
                 }
