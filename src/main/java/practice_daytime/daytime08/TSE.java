@@ -1,22 +1,16 @@
 package practice_daytime.daytime08;
 
-public class TSE {
 
-    DiyetEkmek diyet = new DiyetEkmek();
-        diyet.gramaj500();
-        diyet.hijyenikOlma();
-        diyet.odunAtesindePiser();
-        diyet.undanYapilir();
 
-}
-    @Override
-    void gramaj500() {
+    public abstract class TSE {
+        String malzeme="Undan yapilir";
+        abstract void gramaj500();//childlari uymak zorunda
+        abstract  void hijyenikOlma();
 
-    }
-
-    @Override
-    void hijyenikOlma() {
-
-    }
-
+        void odunAtesindePiser(){
+            System.out.println("TSE ekmekler odun atesinde piser");
+        }
+        void fiyat(){
+            System.out.println("15 TL");
+        }
 }

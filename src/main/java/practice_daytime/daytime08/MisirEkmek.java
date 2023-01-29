@@ -9,7 +9,7 @@ public abstract class MisirEkmek extends TSE{
         diyet.gramaj500();
         diyet.hijyenikOlma();
         diyet.odunAtesindePiser();
-        diyet.undanYapilir();
+
 
     }
         @Override
