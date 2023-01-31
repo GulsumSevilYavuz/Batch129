@@ -1,11 +1,11 @@
 package day29exceptions;
 
 
-    import java.io.FileInputStream;// io ==> Input Output
+import java.io.FileInputStream;// io ==> Input Output
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-    public class Exceptions03 {
+public class Exceptions03 {
 
     /*
         1)FileNotFoundException ve IOException Compile Time Exception'lardir, yani code'u yazarken hata aliriz.
@@ -16,30 +16,30 @@ import java.io.IOException;
         5)IOException Class ve FileNotFoundException beraber kullanilacaksa FileNotFoundException ustte, IOException altta kullanilmalidir.
      */
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            try {
+        try {
 
-                FileInputStream fis = new FileInputStream("src/main/java/day29exceptions/File01.txt");
+            FileInputStream fis = new FileInputStream("src/main/java/day29exceptions/File01.txt");
 
-                int k = 0;
+            int k = 0;
 
-                while((k= fis.read()) != -1 ){
+            while ((k = fis.read()) != -1) {
 
-                    System.out.print((char)k);
+                System.out.print((char) k);
 
-                }
-
-            } catch (FileNotFoundException e) {
-                System.out.println("Path is wrong or the file does not exist");
-            } catch (IOException e) {
-                e.printStackTrace();
             }
 
-            System.out.println();
-
-            System.out.println("Hi!");
-
+        } catch (FileNotFoundException e) {
+            System.out.println("Path is wrong or the file does not exist");
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-}
 
+        System.out.println();
+
+        System.out.println("Hi!");
+
+    }
+
+}
