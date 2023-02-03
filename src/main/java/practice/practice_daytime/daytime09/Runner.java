@@ -12,8 +12,9 @@ public class Runner {
         hastane.setDoktor(doktorBul(unvan));
 
         System.out.println("Doktor ismi: " + hastane.getDoktor().getIsim());
-        System.out.println("Doktor soy isim: " + hastane.getDoktor().getSoyIsim());
+        System.out.println("Doktor ismi: " + hastane.getDoktor().getSoyIsim());
         System.out.println("Doktor unvani: " + hastane.getDoktor().getUnvan());
+
 
     }
 
