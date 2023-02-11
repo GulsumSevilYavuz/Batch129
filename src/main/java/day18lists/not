@@ -1,0 +1,31 @@
+1-Array listlercoklu data depolamak icin kullanilir //Array list olustururken sag tarafa (costructor ArrayLiat sart sola listte olur)
+2-Array listler non primitiv data türündeki coklu datalari depolamak icin kullanilir
+3-Listler non primitiv data kabul ederler Arrayler ise primitive data veya regerens kabul ederler
+4- Array listleri olustururken icine koyacaginiz eleman sayisini bastan söylemeye gerek yoktur
+Listler eleman sayisimda flexibledirler ama arrayler flexible degildirler
+i) Eleman sayisi belli datalari kulllanmak icin arrayler kullanilir
+ii)Arrayler cok hizli calisirlar
+iii)Arrayler memoride cok az yer kaplarlar
+//listlere elemannasil eklenir? add.methodu kullaniriz
+//add()methodu elemanlari sizin verdiginiz sekilde liste ekler .(Insertion order)
+ages.add(9);
+ages.add(index:2,element:656)=> once index sonra eleman verilerekte eklenir
+
+ArrayList<Integer> newAges=new ArrayList<>();
+newAges.add(8);
+newAges.add(9);
+newAges.add(10);
+
+ages.addAll(newAges);( toplu eleman eklemek icin bir list ek olarak olusturulup eklenir)
+yine index numarasi verilip araya da yerlestirilir dilenen indexe yoksa en sona koyar
+// bir listteki tüm elemanlar nasil siinir?
+ages.clear();[] tamamini siler
+bir listte bi eleman var mi yok mu nasil kontol ederiz?
+boolean r=ages.contains(656);
+iki array list ayni mi nasil kontrol ederiz
+boolean s=names1.equals(names2);// ikisi esit olmasi icin ayni indexte ayni eleman olmalidir
+verilen iki listte esit olmasada tamamiyla ayni eleman var mi nasil bakilir
+//Collections.sort(nums1);
+//Collections.sort(nums2);  boolean v=nums1.equals(num2);
+// bir listte kac eleman var?int numOfElement =ages.size();(Arrayde length kullanilir)
+//ages.get(2);git2.elemani getir

@@ -62,5 +62,3 @@ public class Lists04 {
         System.out.println(names.hashCode());// 2041509
     }
 }
-
-

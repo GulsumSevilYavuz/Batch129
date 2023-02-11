@@ -44,12 +44,12 @@ import java.util.List;
             cities.set(0,"New York");
             System.out.println(cities);//[New York, Istanbul, Kayseri, Almaty]
             //Example 2: Maas List'i olusturunuz ve maaslara %20 zam yapiniz.
-            List<Double>salary = new ArrayList<>();
+           List<Double>salary = new ArrayList<>();
             salary.add(19500.25);
             salary.add(8500.75);
             salary.add(32500.50);
             System.out.println(salary);//[19500.25, 8500.75, 32500.5]
-            //1.YOL:
+          //1.YOL:
             int idx = 0;
             for (Double w : salary){
                 salary.set(idx, w*1.20);
@@ -59,6 +59,8 @@ import java.util.List;
             //2.YOL:
             for (int i=0; i<salary.size(); i++){
                 salary.set(i, salary.get(i)*1.20);
+
+
             }
             System.out.println(salary);
         }
