@@ -20,7 +20,7 @@ public class List {
             String urun = input.nextLine().toLowerCase();
             if ((urun.equalsIgnoreCase("q"))) {
                 break;
-            } else if (arr.contains(urun)) {
+            } else if (!arr.contains(urun)) {
                 System.out.println("stokta yok..");
 
 
