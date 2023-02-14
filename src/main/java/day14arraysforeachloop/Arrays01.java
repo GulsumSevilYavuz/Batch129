@@ -14,7 +14,7 @@ public class Arrays01 {
             arr[3] = "English";
             arr[4] = "Art";
             System.out.println(Arrays.toString(arr));// [Math, Science, Music, English, Art]
-
+            System.out.println(arr);//[Ljava.lang.String;@4dd8dc3
             System.out.println(arr[0].length() + arr[arr.length - 1].length());// 7
 
             //Example 2: String array olusturun, icine 5 tane eleman ekleyin, tum elemanlarin
