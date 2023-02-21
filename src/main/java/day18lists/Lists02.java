@@ -18,7 +18,10 @@ public class Lists02 {
         nums.add(13);
         nums.add(9);
         nums.add(11);
-
+nums.add(0, 18);
+        System.out.println(nums);
+        nums.set(0, 1);
+        System.out.println(nums);
         Collections.sort(nums);
 
         int minDiff = nums.get(1) - nums.get(0);

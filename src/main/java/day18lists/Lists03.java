@@ -15,7 +15,8 @@ public class Lists03 {
         nums.add(7);
         nums.add(12);
         nums.add(11);
-
+nums.set(2, 123);
+        System.out.println(nums);
         //1.Yol:
         // 12, 13, 7, 12, 11
         for(Integer w : nums){

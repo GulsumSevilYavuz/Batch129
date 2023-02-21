@@ -25,13 +25,15 @@ public class LinkedList01 {
     public static void main(String[] args) {
 
         List<String> cityNames = new LinkedList<>();
-
+        LinkedList<String> newnames = new LinkedList<>();
         LinkedList<String> names = new LinkedList<>();
         names.add("Steve");
         names.add("Ajda");
         names.add("Raj");
         names.add("Megan");
         names.add("Brandon");
+                     System.out.println(names.remove("Steve"));
+                      System.out.println(names.remove("steve"));
         System.out.println(names);// [Steve, Ajda, Raj, Megan, Brandon]
 
         names.addFirst("Cuneyt");
@@ -65,10 +67,14 @@ public class LinkedList01 {
         System.out.println(names);// [Steve, Raj, Brandon, Ajda, Suleyman]
 
 
+
         //Retrieves, but does not remove, the first element of this list.(Copy + Paste)
         //Returns: the head of this list, or null if this list is empty
         //Ilk elemani silmeden size verir
-        String r2 = names.peek();
+        System.out.println(names.peek());
+        System.out.println(names.get(0));
+        String r2 = names.peek();//kopyala
+
         System.out.println(r2);//Steve
         System.out.println(names);// [Steve, Raj, Brandon, Ajda, Suleyman]
 
@@ -77,7 +83,7 @@ public class LinkedList01 {
         //Returns:the head of this list, or null if this list is empty
         //remove() bos LinkedList'te kullanilirsa "hata verir", poll() bos LinkedList'te kullanilirsa "null" verir.
         names.poll();
-
+// peek ve pool bos listte null verir hata vermez remove hata verir
 
         //Pop removes and returns the first element of this list.(Cut + Paste)
         //This method is equivalent to removeFirst().

@@ -51,7 +51,7 @@ public class Lists04 {
 
         //homeGoods.retainAll(electronics) homeGoods ile electronics list'lerinin ortak elemanlarini homeGoods listi icinde verir.
         //Baska bir deyisle(In other words) homeGoods listindeki ortak olmayan elemanlari siler.
-        homeGoods.retainAll(electronics);
+        homeGoods.retainAll(electronics);//retain tutmak ortak elemanlari tutar gerisini siler
 
         System.out.println(homeGoods);// [Radio, TV]
 

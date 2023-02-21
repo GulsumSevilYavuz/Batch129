@@ -74,7 +74,9 @@ public class HashMaps01 {
         salaries.put("Ayse", 5000);
         salaries.put("Veli", 9000);
         salaries.put("Tom", 9900);
+        System.out.println(salaries.get("Tom"));
 
+        System.out.println(salaries.values());
         String teacherName = "Tom";
 
         if(salaries.keySet().contains(teacherName)) {
