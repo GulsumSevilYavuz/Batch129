@@ -1,6 +1,6 @@
 package day27encapsulationabstraction;
-public class SixthGraders extends Courses {
 
+public class SixthGraders extends Courses {
 
 
     @Override

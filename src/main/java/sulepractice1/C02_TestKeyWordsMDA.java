@@ -40,26 +40,26 @@ output:
                 {'A', 'B', 'D', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},//Zeynep
                 {'B', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},//Murak
                 {'B', 'B', 'A', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},//Osman
-                {'E' , 'B','E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'}};//Mustafa
+                {'E', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'}};//Mustafa
 
         // cevap anahtari
         char[] keys = {'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E', 'A', 'D'};
 
-        testSonucu(answers,keys);
+        testSonucu(answers, keys);
 
     }//main
 
     private static void testSonucu(char[][] answers, char[] keys) {
 
-        for (int i = 0; i <answers.length ;         i++) {//auter loop 0.ogrencinin cevaplari[][]
+        for (int i = 0; i < answers.length; i++) {//auter loop 0.ogrencinin cevaplari[][]
 
-            int sayac=0;
-            for (int j = 0; j <answers[i].length ; j++) {//cevaplarda dolasiyorum
-                if(answers[i][j]== keys[j]) {
+            int sayac = 0;
+            for (int j = 0; j < answers[i].length; j++) {//cevaplarda dolasiyorum
+                if (answers[i][j] == keys[j]) {
                     sayac++;
                 }//if
             }//for j
-            System.out.println(i+1+" nolu ogrencinin dogru cevap sayisi "+sayac);
+            System.out.println(i + 1 + " nolu ogrencinin dogru cevap sayisi " + sayac);
         }
 
     }//main

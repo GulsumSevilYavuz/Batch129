@@ -3,17 +3,13 @@
 package day07ifstatement;
 
 
-
 import java.util.Scanner;
-
 
 
 public class IfStatement02 {
 
 
-
     public static void main(String[] args) {
-
 
 
         //Example 2: Kullanicidan alinan bir sayinin tek mi cift mi oldugunu yazdiran kodu olusturunuz
@@ -25,18 +21,16 @@ public class IfStatement02 {
         int num = input.nextInt();
 
 
-
         //1.Yol:
 
-        if(num%2==0){
+        if (num % 2 == 0) {
 
             System.out.println("Cift sayi...");
 
         }
 
 
-
-        if(num%2!=0){
+        if (num % 2 != 0) {
 
             System.out.println("Tek sayi...");
 
@@ -45,16 +39,15 @@ public class IfStatement02 {
 
         //2.Yol:
 
-        if(num%2==0){
+        if (num % 2 == 0) {
 
             System.out.println("Cift sayi...");
 
-        }else{
+        } else {
 
             System.out.println("Tek sayi...");
 
         }
-
 
 
     }

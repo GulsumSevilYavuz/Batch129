@@ -29,9 +29,7 @@ public class TypeCasting01 {
          */
 
 
-
     public static void main(String[] args) {
-
 
 
         //byte data type'ini int data type'ina ceviriniz
@@ -41,13 +39,11 @@ public class TypeCasting01 {
         int ageInt = age;//AutoWidening
 
 
-
         //long data type'ini short data type'ina cevirelim
 
         long weight = 234;
 
-        short weightShort = (short)weight;//Explicit Narrowing
-
+        short weightShort = (short) weight;//Explicit Narrowing
 
 
         //int data type'ini float data type'ina ceviriniz
@@ -57,11 +53,9 @@ public class TypeCasting01 {
         System.out.println(population);
 
 
-
         float populationFloat = population;
 
         System.out.println(populationFloat);
-
 
 
         //double data type'ini short data type'ina ceviriniz
@@ -71,11 +65,9 @@ public class TypeCasting01 {
         System.out.println(number);//12.934
 
 
-
-        short numberShort = (short)number;
+        short numberShort = (short) number;
 
         System.out.println(numberShort);//12
-
 
 
         //Dikkat!
@@ -91,11 +83,9 @@ public class TypeCasting01 {
         System.out.println(num);//260
 
 
-
-        byte numByte = (byte)num;
+        byte numByte = (byte) num;
 
         System.out.println(numByte);//4
-
 
 
         //Example 2:
@@ -105,13 +95,12 @@ public class TypeCasting01 {
         System.out.println(n);//1023
 
 
-        byte nByte = (byte)n;
+        byte nByte = (byte) n;
 
         System.out.println(nByte);//-1
 
 
     }
-
 
 
 }

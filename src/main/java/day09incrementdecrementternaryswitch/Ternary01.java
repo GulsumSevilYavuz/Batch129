@@ -5,7 +5,6 @@ package day09incrementdecrementternaryswitch;
 public class Ternary01 {
 
 
-
     public static void main(String[] args) {
 
 
@@ -28,7 +27,8 @@ public class Ternary01 {
         }
 
 
-    }}
+    }
+}
 
 
     /*

@@ -8,11 +8,11 @@ public class TextOkumaYazma {
         FileReader fileReader = new FileReader("C:/Users/TechProEd/Desktop/HelloWorld.txt");
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         String satir = bufferedReader.readLine();
-        String yeniDosya="";
+        String yeniDosya = "";
 
-        while (satir!=null){
+        while (satir != null) {
 
-            yeniDosya+=satir+"==> Satır Kelime Sayısı: "+satir.split(" ").length+"\n";
+            yeniDosya += satir + "==> Satır Kelime Sayısı: " + satir.split(" ").length + "\n";
 
             satir = bufferedReader.readLine();
 

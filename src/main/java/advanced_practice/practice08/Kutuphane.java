@@ -14,12 +14,12 @@ public class Kutuphane {
         this.kitapAdi = kitapAdi;
         this.yazarAdi = yazarAdi;
         this.sayfaSayisi = sayfaSayisi;
-        seriNumarasi = kitapAdi.substring(0,2)+yazarAdi.substring(0,2)+kitapSayisi;
+        seriNumarasi = kitapAdi.substring(0, 2) + yazarAdi.substring(0, 2) + kitapSayisi;
         kitapBilgileri();
     }
 
-    public void kitapBilgileri(){
-        System.out.println("Kitap Adı: "+kitapAdi+"\nYazar Adı: "+yazarAdi+"\nSayfa Sayısı: "+sayfaSayisi+"\nSeri No: "+seriNumarasi);
+    public void kitapBilgileri() {
+        System.out.println("Kitap Adı: " + kitapAdi + "\nYazar Adı: " + yazarAdi + "\nSayfa Sayısı: " + sayfaSayisi + "\nSeri No: " + seriNumarasi);
         System.out.println("============");
     }
 }

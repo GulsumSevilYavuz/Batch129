@@ -10,27 +10,27 @@ public class Exceptions03 {
 
     }
 
-    public static void getStudentGrade(int grade){
-        if(grade<0 || grade>100){
+    public static void getStudentGrade(int grade) {
+        if (grade < 0 || grade > 100) {
             try {
                 throw new InvalidStudentGradeException("Student's grades cannot be less than zero or greater than 100");
             } catch (InvalidStudentGradeException e) {
                 e.printStackTrace();
             }
-        }else{
+        } else {
             System.out.println(grade);
         }
     }
 
-    public static void getTheNumberOfStudents(int numOfStudents){
+    public static void getTheNumberOfStudents(int numOfStudents) {
 
-        if(numOfStudents<0){
+        if (numOfStudents < 0) {
             try {
                 throw new InvalidNumberException("Student number cannot be negative");
-            }catch(InvalidNumberException e){
+            } catch (InvalidNumberException e) {
                 System.err.println(e.getMessage());
             }
-        }else{
+        } else {
             System.out.println(numOfStudents);
         }
     }

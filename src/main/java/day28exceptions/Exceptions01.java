@@ -31,12 +31,12 @@ public class Exceptions01 {
 
     //ArithmeticException yazdiginiz code'da matematiksel islem kullaniyorsaniz alinabilecek bir Exception'dir.
     //Nasil handle edilecegini asagida yazdik.
-    public static void divide(int a, int b){
+    public static void divide(int a, int b) {
 
         try {
             System.out.println(a / b);
             System.out.println("I am here");
-        }catch(ArithmeticException e){
+        } catch (ArithmeticException e) {
             System.out.println("Do not divide by zero");
         }
         System.out.println("You are here");
@@ -50,4 +50,5 @@ public class Exceptions01 {
             System.out.println(a / b);
 
         }
-    }}
+    }
+}

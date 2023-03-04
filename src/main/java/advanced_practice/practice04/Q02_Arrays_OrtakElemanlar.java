@@ -1,7 +1,9 @@
 package advanced_practice.practice04;
+
 import java.util.ArrayList;
 
 import java.util.List;
+
 public class Q02_Arrays_OrtakElemanlar {
 
 
@@ -31,7 +33,6 @@ public class Q02_Arrays_OrtakElemanlar {
         List<String> list = new ArrayList<>();
 
 
-
         for (String w : arr) {
 
             for (String u : brr) {
@@ -42,7 +43,6 @@ public class Q02_Arrays_OrtakElemanlar {
                     list.add(w);
 
 
-
                 }
 
             }
@@ -50,13 +50,10 @@ public class Q02_Arrays_OrtakElemanlar {
         }
 
 
-
         System.out.println("list = " + list);
 
 
-
     }
-
 
 
 }

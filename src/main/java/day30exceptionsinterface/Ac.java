@@ -16,6 +16,7 @@ public abstract class Ac {
 
     //interface'lerdeki variabler otomatik olarak "public" dir, "static" dir, "final" dir.
     abstract void cool();
+
     abstract void run();
 
     static int price = 2000;

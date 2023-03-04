@@ -22,8 +22,7 @@ public class Variables01 {
 
     // Data Type'ini yaziniz   Variable ismi yaziniz  Assignment Operator(Atama Operatoru)   Variable degeri   Ingilizce'deki nokta gibi
 
-    int                      age                     =                                   13                   ;
-
+    int age = 13;
 
 
     //Ornek 1: Ogrenci ismi icin variable olusturup deger olarak Ali Can atayiniz.
@@ -65,7 +64,6 @@ public class Variables01 {
          */
 
 
-
     //Ornek 2: char data type'inda ilk ismin ilk harfi olarak bir variable olusturnuz ve bir deger atayiniz.
 
     //Note: char data type'inda degerler tek tirnak icine konulmlaidir
@@ -73,17 +71,14 @@ public class Variables01 {
     char isminIlkHarf = 'A';
 
 
-
     //Ornek 3: boolean data type'inde emeklimisin icin bir variable olusturun ve false degerini atayin.
 
     boolean emeklimisin = false;
 
 
-
     //Ornek 4: byte data type'inda ogrenci yasi icin bir variable olusturunuz ve deger atayiniz.
 
     byte studentAge = 23;
-
 
 
     //Ornek 5: Site nufusu icin bir variable olusturup deger atayiniz.
@@ -95,13 +90,11 @@ public class Variables01 {
     int countryPopulation = 1864184648;
 
 
-
     //Ornek 7: iNsan vucudundaki hucre sayisi icin variable olusturup deger atamasi yapiniz.
 
     //Note: Bir deger long ise sonuna "L"(Tercih edilir) veya "l" konulur.
 
     long cellNumberInHumanBody = 87654321356788L;
-
 
 
     //Eger long'a atadiginiz deger int'lerin araliginda ise sonuna "L" koymaya gerek yok

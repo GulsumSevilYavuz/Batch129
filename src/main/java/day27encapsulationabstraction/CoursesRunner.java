@@ -3,9 +3,7 @@ package day27encapsulationabstraction;
 public class CoursesRunner {
 
 
-
     public static void main(String[] args) {
-
 
 
         //"abstract class" larin icinde "abstract method" lar vardir.
@@ -19,16 +17,13 @@ public class CoursesRunner {
         //Bu yuzden, "abstract class" lardan object uretilemez.
 
 
-
         //"abstract class" larin constructor'i vardir ama bu constructor object uretemez haldedir.
 
 
         //Courses myCourse = new Courses();
 
 
-
     }
-
 
 
 }

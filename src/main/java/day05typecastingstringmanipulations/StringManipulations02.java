@@ -5,9 +5,7 @@ public class StringManipulations02 {
     public static void main(String[] args) {
 
 
-
         String s = "Learn Java earn money";
-
 
 
         //Example 1: "s" String'inin "money" ile bitip bitmedigini kontrol ediniz.
@@ -31,7 +29,6 @@ public class StringManipulations02 {
         System.out.println(s2);// Lwin Java win money
 
 
-
         //Example 4: "s" String'indeki "a" harflerini "*" a ceviriniz.
 
         //Note: replace() method'unda coklu character ile calisirsaniz mecbur cift tirnak kulanacaksiniz
@@ -52,7 +49,6 @@ public class StringManipulations02 {
         System.out.println(s4);// LearXXX Java earXXX moXXXey
 
 
-
         //Example 6: "s" String'indeki tum "e" harflerini siliniz
 
         //Note: "Hicbir sey" char data type'inda yok bu yuzden replace() method'u kullanarak silme islemi yaparsaniz mutlaka cift tirnak kullaniniz.
@@ -63,7 +59,6 @@ public class StringManipulations02 {
 
 
         String t = "Ali 13 yasindadir!...";
-
 
 
         //Example 7: "t" String'indeki tum rakamlari(0, 1, 2, 3, 4, 5, 6, 7, 8, 9) "*" a ceviriniz
@@ -110,7 +105,6 @@ public class StringManipulations02 {
          */
 
 
-
         //Example 8: "t" String'indeki tum rakamlari ve harfleri "!" e ceviriniz
 
         String t2 = t.replaceAll("[a-zA-Z0-9]", "!");
@@ -118,13 +112,11 @@ public class StringManipulations02 {
         System.out.println(t2);// !!! !! !!!!!!!!!!!...
 
 
-
         //Example 9: "t" String'indeki tum sesli harfleri "?" e ceviriniz
 
         String t3 = t.replaceAll("[aeiouAEIOU]", "?");
 
         System.out.println(t3);//Al? 13 y?s?nd?d?r!...
-
 
 
         //Example 10: "t" String'indeki kucuk harfler disindaki tum character'leri "<>" ceviriniz
@@ -141,13 +133,11 @@ public class StringManipulations02 {
         System.out.println(t5);
 
 
-
         //Example 12: "t" String'indeki space'ler disindaki tum character'leri "+" ceviriniz
 
         String t6 = t.replaceAll("[^ ]", "+");
 
         System.out.println(t6);// +++ ++ ++++++++++++++
-
 
 
         //Example 13: "t" String'indeki sesli harfler'ler disindaki tum character'leri "&" ceviriniz
@@ -157,9 +147,7 @@ public class StringManipulations02 {
         System.out.println(t7);// A&i&&&&&a&i&&a&i&&&&&
 
 
-
     }
-
 
 
 }

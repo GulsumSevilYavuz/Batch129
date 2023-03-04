@@ -1,4 +1,5 @@
 package advanced_practice.practice01;
+
 import java.util.Arrays;
 
 public class Q05_ForEach_Eurodolar {
@@ -20,29 +21,27 @@ public class Q05_ForEach_Eurodolar {
 
     public static void main(String[] args) {
 
-        String str ="$1 $12 €34 €56 $45 €78";
+        String str = "$1 $12 €34 €56 $45 €78";
 
         String[] arr = str.split(" ");
 
         System.out.println(Arrays.toString(arr));//[$1, $12, €34, €56, $45, €78]
 
 
-
         int dolarToplam = 0;
 
         int euroToplam = 0;
 
-        for (String w : arr){
+        for (String w : arr) {
 
 
+            if (w.contains("$")) {
 
-            if(w.contains("$")){
+                dolarToplam += Integer.parseInt(w.replaceAll("\\D", ""));
 
-                dolarToplam += Integer.parseInt(w.replaceAll("\\D",""));
+            } else {
 
-            }else {
-
-                euroToplam += Integer.parseInt(w.replaceAll("\\D",""));
+                euroToplam += Integer.parseInt(w.replaceAll("\\D", ""));
 
             }
 
@@ -51,7 +50,6 @@ public class Q05_ForEach_Eurodolar {
         System.out.println("dolarToplam = " + dolarToplam);
 
         System.out.println("euroToplam = " + euroToplam);
-
 
 
     }

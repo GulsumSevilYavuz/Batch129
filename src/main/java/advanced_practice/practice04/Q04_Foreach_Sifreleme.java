@@ -1,4 +1,5 @@
 package advanced_practice.practice04;
+
 import java.util.Scanner;
 
 public class Q04_Foreach_Sifreleme {

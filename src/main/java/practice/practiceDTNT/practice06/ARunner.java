@@ -3,7 +3,7 @@ package practice.practiceDTNT.practice06;
 public class ARunner {
     public static void main(String[] args) {
 
-        B b =new B();
+        B b = new B();
         b.m();//Bad
         System.out.println(b.x);//20
 
@@ -20,10 +20,9 @@ public class ARunner {
         System.out.println(child.sayi);//50
         child.m();//Bad
 
-        C bebek=new D();
+        C bebek = new D();
         System.out.println(bebek.x);//10
         bebek.m();//Bad
-
 
 
     }//main

@@ -26,17 +26,17 @@ public class Exceptions01 {
 
     }
 
-    public static void m(int[] c, int a, int b){
+    public static void m(int[] c, int a, int b) {
 
         try {
             int idx = a / b;
             int element = c[idx];
             System.out.println(element);
-        }catch(ArithmeticException e){
+        } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
-        }catch(ArrayIndexOutOfBoundsException e){
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println(e.getMessage());
-        }finally {
+        } finally {
             System.out.println("Cut the connection with the DB");
         }
 

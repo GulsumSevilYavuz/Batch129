@@ -1,4 +1,5 @@
 package advanced_practice.practice3;
+
 import java.util.Scanner;
 
 public class Q06_ForLoop_Continue {
@@ -21,13 +22,11 @@ public class Q06_ForLoop_Continue {
         int toplam = 0;
 
 
-
         for (int i = 1; i < 6; i++) {
 
             System.out.println(i + ". sayıyı giriniz");
 
             int sayi = input.nextInt();
-
 
 
             if (sayi > 5 && sayi < 10) {
@@ -41,7 +40,6 @@ public class Q06_ForLoop_Continue {
             toplam += sayi;
 
         }
-
 
 
         System.out.println("toplam = " + toplam);

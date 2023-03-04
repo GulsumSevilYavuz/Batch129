@@ -21,14 +21,14 @@ public class HashMaps02 {
         String[] wordsArray = sentence.split(" ");
         System.out.println(Arrays.toString(wordsArray));// [Java, is, easy, Java, is, OOP, OOP, makes, Java, easy]
         // [Java, is, easy, Java, is, OOP, OOP, makes, Java, easy]
-        for(String w : wordsArray){
+        for (String w : wordsArray) {
 
             Integer numOfOccurrence = wordsMap.get(w);
 
-            if(numOfOccurrence==null){
+            if (numOfOccurrence == null) {
                 wordsMap.put(w, 1);
-            }else{
-                wordsMap.replace(w, numOfOccurrence+1);
+            } else {
+                wordsMap.replace(w, numOfOccurrence + 1);
             }
 
         }

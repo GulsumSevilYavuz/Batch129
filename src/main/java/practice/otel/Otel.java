@@ -7,10 +7,9 @@ public abstract class Otel {
 
     public abstract void kahvalti();
 
-    public int wifi(int kisiSayisi){ //cocreate method body'li isteyen kullanir
-        return kisiSayisi*3;
+    public int wifi(int kisiSayisi) { //cocreate method body'li isteyen kullanir
+        return kisiSayisi * 3;
     }
-
 
 
 }

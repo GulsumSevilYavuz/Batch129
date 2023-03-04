@@ -12,12 +12,12 @@ public class Exceptions04 {
     }
 
     //Array'lerde olmayan bir index kullanildiginda Java ArrayIndexOutOfBoundsException atar.
-    public static void getElementFromArray(String[] s, int idx){
+    public static void getElementFromArray(String[] s, int idx) {
 
         try {
             String el = s[idx];
             System.out.println(el);
-        }catch(ArrayIndexOutOfBoundsException e){
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println(e.getMessage());
             System.out.println(e.getCause());
         }

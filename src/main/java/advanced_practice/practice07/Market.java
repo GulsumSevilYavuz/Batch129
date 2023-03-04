@@ -10,8 +10,8 @@ public class Market {
     public Market(String urunAdi, double urunFiyati, int aySonra) {
         this.urunAdi = urunAdi;
 
-        if(urunFiyati>99){
-            urunFiyati=urunFiyati*0.9;
+        if (urunFiyati > 99) {
+            urunFiyati = urunFiyati * 0.9;
         }
         this.urunFiyati = urunFiyati;
         this.sonKullanmaTarihi = LocalDate.now().plusMonths(aySonra).toString();
@@ -20,8 +20,8 @@ public class Market {
     public Market(String urunAdi, double urunFiyati) {
         this.urunAdi = urunAdi;
 
-        if(urunFiyati>99){
-            urunFiyati=urunFiyati*0.9;
+        if (urunFiyati > 99) {
+            urunFiyati = urunFiyati * 0.9;
         }
         this.urunFiyati = urunFiyati;
     }
@@ -32,22 +32,20 @@ public class Market {
     }
 
 
+    @Override
 
-
-@Override
-
-public String toString() {
+    public String toString() {
 
         return "Market{" +
 
-        "ürünAdı='" + urunAdi + '\'' +
+                "ürünAdı='" + urunAdi + '\'' +
 
-        ", ürünFiyati=" + urunFiyati +
+                ", ürünFiyati=" + urunFiyati +
 
-        ", sonKullanmaTarihi='" + sonKullanmaTarihi + '\'' +
+                ", sonKullanmaTarihi='" + sonKullanmaTarihi + '\'' +
 
-        '}';
+                '}';
 
-        }
+    }
 
-        }
+}

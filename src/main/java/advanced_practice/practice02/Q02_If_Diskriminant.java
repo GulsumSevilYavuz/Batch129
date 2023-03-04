@@ -1,5 +1,7 @@
 package advanced_practice.practice02;
+
 import java.util.Scanner;
+
 public class Q02_If_Diskriminant {
 
     /* Katsayıları verilen ikinci dereceden 1 bilinmeyenli denklemin kökleriniz bulunuz.
@@ -39,9 +41,7 @@ public class Q02_If_Diskriminant {
         double c = input.nextDouble();
 
 
-
         double delta = b * b - 4 * a * c;
-
 
 
         if (delta > 0) {
@@ -51,8 +51,7 @@ public class Q02_If_Diskriminant {
             double x2 = (-b - Math.sqrt(delta)) / (2 * a);
 
 
-
-            System.out.println("Denkleminiz: "+a+"x² + "+b+"x + "+c+";");
+            System.out.println("Denkleminiz: " + a + "x² + " + b + "x + " + c + ";");
 
             System.out.println("Denklemin 2 kökü vardır: x1=" + x1 + ", x2=" + x2);
 
@@ -60,13 +59,13 @@ public class Q02_If_Diskriminant {
 
             double x = -b / (2 * a);
 
-            System.out.println("Denkleminiz: "+a+"x² + "+b+"x + "+c+";");
+            System.out.println("Denkleminiz: " + a + "x² + " + b + "x + " + c + ";");
 
-            System.out.println("Denklemin 1 kökü vardır: x=" +x);
+            System.out.println("Denklemin 1 kökü vardır: x=" + x);
 
-        }else {
+        } else {
 
-            System.out.println("Denkleminiz: "+a+"x² + "+b+"x + "+c+";");
+            System.out.println("Denkleminiz: " + a + "x² + " + b + "x + " + c + ";");
 
             System.out.println("Denklemin kökü yoktur");
 

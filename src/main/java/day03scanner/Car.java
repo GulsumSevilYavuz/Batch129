@@ -1,11 +1,7 @@
 package day03scanner;
 
 
-
-
 public class Car {
-
-
 
 
     public static void main(String[] args) {
@@ -14,6 +10,7 @@ public class Car {
         System.out.println("Corolla guvenli bir sekilde durur...");
         //Variable'lar olusturalim;
     }
+
     public String model = "Corolla";
 
     public int fiyat = 20000;
@@ -23,15 +20,14 @@ public class Car {
 
     //Note: "return type" void oldugunda method icinde "return" kelimesi kullanilmaz
 
-    public void hareket(){
+    public void hareket() {
 
         System.out.println("Corolla hizli hareket eder...");
 
     }
 
 
-
-    public void dur(){
+    public void dur() {
 
         System.out.println("Corolla guvenli bir sekilde durur...");
 

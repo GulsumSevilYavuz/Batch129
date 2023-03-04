@@ -16,15 +16,15 @@ public class Q02_Arrays_SesliHarfleriKapa {
         String str = input.nextLine();
 
         String[] arr = new String[str.length()];
-        int idx=0;
+        int idx = 0;
 
-        for(String w : str.split("")){
+        for (String w : str.split("")) {
 
-            if(w.equalsIgnoreCase("a")||w.equalsIgnoreCase("e")||w.equalsIgnoreCase("i")||w.equalsIgnoreCase("o")||w.equalsIgnoreCase("u")){
+            if (w.equalsIgnoreCase("a") || w.equalsIgnoreCase("e") || w.equalsIgnoreCase("i") || w.equalsIgnoreCase("o") || w.equalsIgnoreCase("u")) {
                 arr[idx] = "*";
                 idx++;
-            }else {
-                arr[idx]=w;
+            } else {
+                arr[idx] = w;
                 idx++;
             }
         }

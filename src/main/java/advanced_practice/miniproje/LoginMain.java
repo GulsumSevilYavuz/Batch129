@@ -1,4 +1,5 @@
 package advanced_practice.miniproje;
+
 import java.util.Scanner;
 
 public class LoginMain {

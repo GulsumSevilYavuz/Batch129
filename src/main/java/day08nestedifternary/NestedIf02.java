@@ -3,13 +3,10 @@
 package day08nestedifternary;
 
 
-
 import java.util.Scanner;
 
 
-
 public class NestedIf02 {
-
 
 
     public static void main(String[] args) {
@@ -39,39 +36,36 @@ public class NestedIf02 {
         double c = input.nextDouble();
 
 
-
-        boolean ucgenmi = (a+b>c && c>Math.abs(a-b)) && (a+c>b && b>Math.abs(a-c)) && (b+c>a && a>Math.abs(b-c));
-
+        boolean ucgenmi = (a + b > c && c > Math.abs(a - b)) && (a + c > b && b > Math.abs(a - c)) && (b + c > a && a > Math.abs(b - c));
 
 
-        if(a<=0 || b<=0 || c<=0){
+        if (a <= 0 || b <= 0 || c <= 0) {
 
             System.out.println("Gecerli kenar uzunlugu giriniz...");
 
-        }else if(ucgenmi){
+        } else if (ucgenmi) {
 
 
-            if(a==b && b==c && a==c){
+            if (a == b && b == c && a == c) {
 
                 System.out.println("Eskenar");
 
-            }else if(a==b || b==c || a==c){
+            } else if (a == b || b == c || a == c) {
 
                 System.out.println("Ikizkenar");
 
-            }else{
+            } else {
 
                 System.out.println("Cesitkenar");
 
             }
 
 
-        }else{
+        } else {
 
             System.out.println("Ucgen degil...");
 
         }
-
 
 
     }

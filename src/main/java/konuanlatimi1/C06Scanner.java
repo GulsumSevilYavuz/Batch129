@@ -1,6 +1,6 @@
 package konuanlatimi1;
-import java.util.Scanner;
 
+import java.util.Scanner;
 
 
 public class C06Scanner {
@@ -63,20 +63,19 @@ public class C06Scanner {
 
         String s = "accessories";
         String d = "";
-        for(Integer i=0; i<s.length(); i++) {
+        for (Integer i = 0; i < s.length(); i++) {
 
             char f = s.charAt(i);
             System.out.println(f);
 
 
-        }}
+        }
+    }
 
     public static class Scanner06 {
 
 
-
         public static void main(String[] args) {
-
 
 
             //Kullanicidan alacaginiz 5 basamakli
@@ -86,35 +85,29 @@ public class C06Scanner {
             // rakamlarin toplamini yazdiran kodu yaziniz
 
 
-
             Scanner input = new Scanner(System.in);
-
 
 
             System.out.println("5 basamakli bir sayi giriniz...");
 
 
-
             int number = input.nextInt();
-
 
 
             //Son rakami al
 
-            int lastDigit = number%10;
+            int lastDigit = number % 10;
 
             System.out.println(lastDigit);
 
 
-
             //Sayiyi kucult
 
-            number = number/10;
+            number = number / 10;
 
             System.out.println(number);
 
         }
-
 
 
     }
@@ -123,10 +116,7 @@ public class C06Scanner {
         public static void main(String[] args) {
 
 
-
-
             //1)TECHPRO EDUCATION ==> her bir harf alt alta gelecek sekilde yazdiran kodu olusturunuz.
-
 
 
             System.out.println("*************1. YOL**********");
@@ -180,7 +170,6 @@ public class C06Scanner {
              */
 
 
-
             //2)yukaridaki ornegi tek sout ile her harf alt alta gelecek sekilde yazdirin
 
             System.out.println("************2.Yol******************");
@@ -188,9 +177,7 @@ public class C06Scanner {
             System.out.println("\nT\nE\nC\nH\nP\nR\nO\n\nE\nD\nU\nC\nA\nT\nI\nO\nN");
 
 
-
             //3) JAVA ILE GUZEL DUNYA her bir kelimeyi alt satira yazdiracak sekilde kodu create ediniz
-
 
 
             System.out.println("\nJAVA\nILE\nGUZEL\nDUNYA");
@@ -204,11 +191,9 @@ public class C06Scanner {
             System.out.println("DUNYA");
 
 
-
             //4) JAVA ILE GUZEL DUNYA seklinde kelimeler arasinda 1 tab bosluk birakan kodu yaziniz
 
             System.out.println("JAVA\tILE\tGUZEL\tDUNYA");
-
 
 
             //5) pazartesi kelimesinin her bir harfini alt satirda yazdiracak sekilde tek sout ile kodu create ediniz
@@ -220,15 +205,12 @@ public class C06Scanner {
             // yazdiran bir kod yaziniz
 
 
-
             System.out.println("\"Techpro\"\tile\tjava\tcok\t'kolay'");
 
             //Soru-7 : "MAHARET" hic 'DUSMEMEK'  degil;
 
 
-
             // "Her dustugunde kalkabilmektir" ==>ifadesini
-
 
 
             //      seklinde noktali virgulden
@@ -250,9 +232,7 @@ public class C06Scanner {
             //Scanner bir Class'tir.Java util kutuphanesinden getirildi icin import ister
 
 
-
             public static void main(String[] args) {
-
 
 
                 //Kullanicidan Data Almak Icin
@@ -264,17 +244,14 @@ public class C06Scanner {
                 //Scanner scan= new Scanner(System.in);
 
 
-
                 //2.Adim Kullaniciya ne yapacagini soyle
 
                 System.out.println("Lutfen yasinizi giriniz");
 
 
-
                 //3.Adim Kullanicidan aldiginiz datayi variable icine koyun
 
-                byte age= input.nextByte();
-
+                byte age = input.nextByte();
 
 
                 // Kullaniciya ad , memleket , yas, boy ,
@@ -282,24 +259,23 @@ public class C06Scanner {
                 //yasadigi yeri sevip sevmedigini soran bir program yaziniz
 
 
-
                 Scanner scan = new Scanner(System.in);
 
                 System.out.println("Lutfen isminizi giriniz...");
 
-                String isim= scan.nextLine();//Kullanicidan String bir deger istedik tum satiri almasi ici nextLine sectik
+                String isim = scan.nextLine();//Kullanicidan String bir deger istedik tum satiri almasi ici nextLine sectik
 
                 System.out.println("Lutfen memleketinizi giriniz...");
 
-                String memleket= scan.nextLine();
+                String memleket = scan.nextLine();
 
                 System.out.println("Lutfen yasinizi giriniz....");
 
-                int yas =scan.nextInt();
+                int yas = scan.nextInt();
 
                 System.out.println("Lutfen boyunuzu giriniz....");
 
-                short boy= scan.nextShort();
+                short boy = scan.nextShort();
 
                 System.out.println("Lutfen yasadiginiz yeri sevip sevmediginizi yaziniz");
 
@@ -316,7 +292,6 @@ public class C06Scanner {
                 System.out.println("boy = " + boy);
 
                 System.out.println("seviyorMu = " + seviyorMu);
-
 
 
             }

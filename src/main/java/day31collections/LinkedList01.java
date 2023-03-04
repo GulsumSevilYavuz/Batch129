@@ -32,8 +32,8 @@ public class LinkedList01 {
         names.add("Raj");
         names.add("Megan");
         names.add("Brandon");
-                     System.out.println(names.remove("Steve"));
-                      System.out.println(names.remove("steve"));
+        System.out.println(names.remove("Steve"));
+        System.out.println(names.remove("steve"));
         System.out.println(names);// [Steve, Ajda, Raj, Megan, Brandon]
 
         names.addFirst("Cuneyt");
@@ -65,7 +65,6 @@ public class LinkedList01 {
 
         names.removeLastOccurrence("Suleyman");
         System.out.println(names);// [Steve, Raj, Brandon, Ajda, Suleyman]
-
 
 
         //Retrieves, but does not remove, the first element of this list.(Copy + Paste)

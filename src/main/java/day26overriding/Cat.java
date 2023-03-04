@@ -2,7 +2,7 @@ package day26overriding;
 
 public class Cat extends Mammal {
 
-    public void meow(){
+    public void meow() {
         System.out.println("Cats meow...");
     }
 
@@ -25,12 +25,12 @@ public class Cat extends Mammal {
 
     @Override
     public int add(int a, int b) {
-        return a+b;
+        return a + b;
     }
 
     @Override
     public Integer multiply(int a, int b) {
-        return a*b;
+        return a * b;
     }
 }
 

@@ -18,11 +18,11 @@ public class Q04_Anagram {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Birinci String değeri giriniz");
-        String birinci =    input.nextLine();
+        String birinci = input.nextLine();
         System.out.println("İkinici String değeri giriniz");
-        String ikinici =    input.nextLine();
+        String ikinici = input.nextLine();
 
-        anagram(birinci,ikinici);
+        anagram(birinci, ikinici);
 
     }
 
@@ -39,7 +39,6 @@ public class Q04_Anagram {
             System.out.println("Anagram DEĞİL");
         }
     }
-
 
 
 }

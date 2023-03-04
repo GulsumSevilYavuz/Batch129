@@ -13,8 +13,8 @@ public class Arrays04 {
         colors[4] = "Green";
         colors[5] = "Brown";
 
-        for(String w : colors){
-            if(w.equals("Yellow")){
+        for (String w : colors) {
+            if (w.equals("Yellow")) {
                 break;
             }
             System.out.println(w);
@@ -31,8 +31,8 @@ public class Arrays04 {
 
         //1.Yol:
         //Note: Elemanlari almaya son elemandan baslayacagim icin for-each loop kulanamam, bu yuzden for-loop kullandim.
-        for(int i=color.length-1; i>=0; i--){
-            if(color[i].equals("Yellow")){
+        for (int i = color.length - 1; i >= 0; i--) {
+            if (color[i].equals("Yellow")) {
                 break;
             }
             System.out.println(color[i]);
@@ -42,18 +42,17 @@ public class Arrays04 {
         //Yellow elemaninin index'ini bul ve o index'den daha buyuk index'e sahip olan elemanlari yazdir.
         int counter = 0;
         //Red, Orange, Blue, Yellow, Green, Brown
-        for(String w : color){
-            if(w.equals("Yellow")){
+        for (String w : color) {
+            if (w.equals("Yellow")) {
                 break;
             }
             counter++;
         }
 
-        for(int i=counter+1; i<color.length; i++){
+        for (int i = counter + 1; i < color.length; i++) {
             System.out.println(color[i]);
         }
     }
-
 
 
 }

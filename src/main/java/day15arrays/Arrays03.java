@@ -3,7 +3,6 @@ package day15arrays;
 import java.util.Arrays;
 
 
-
 public class Arrays03 {
 
 
@@ -34,7 +33,7 @@ public class Arrays03 {
 
         System.out.println(Arrays.toString(b));
         System.out.println(Arrays.toString(a));
-        b[2]=8;
+        b[2] = 8;
         System.out.println(Arrays.toString(b));
 
     }

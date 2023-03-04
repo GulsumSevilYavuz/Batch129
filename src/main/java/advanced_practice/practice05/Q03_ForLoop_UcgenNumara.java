@@ -23,11 +23,9 @@ public class Q03_ForLoop_UcgenNumara {
     */
 
 
-
     public static void main(String[] args) {
 
         for (int i = 1; i <= 6; i++) {
-
 
 
             for (int bosluk = 1; bosluk < i; bosluk++) {//Boşluk Kontrolü
@@ -37,7 +35,6 @@ public class Q03_ForLoop_UcgenNumara {
             }
 
 
-
             for (int j = i; j <= 6; j++) {//Sütun Kontrolü
 
                 System.out.print(j + " ");
@@ -45,12 +42,10 @@ public class Q03_ForLoop_UcgenNumara {
             }
 
 
-
             System.out.println();//Satır Kontrolü
 
         }
 
 
-
-}
+    }
 }

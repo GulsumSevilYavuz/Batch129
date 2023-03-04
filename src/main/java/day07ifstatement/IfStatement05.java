@@ -3,12 +3,10 @@
 package day07ifstatement;
 
 
-
 import java.util.Scanner;
 
 
 public class IfStatement05 {
-
 
 
     public static void main(String[] args) {
@@ -23,56 +21,55 @@ public class IfStatement05 {
         String monthName = input.next();
 
 
-
-        if(monthName.equalsIgnoreCase("January")){
+        if (monthName.equalsIgnoreCase("January")) {
 
             System.out.println(1);
 
-        }else if(monthName.equalsIgnoreCase("February")){
+        } else if (monthName.equalsIgnoreCase("February")) {
 
             System.out.println(2);
 
-        }else if(monthName.equalsIgnoreCase("March")){
+        } else if (monthName.equalsIgnoreCase("March")) {
 
             System.out.println(3);
 
-        }else if(monthName.equalsIgnoreCase("April")){
+        } else if (monthName.equalsIgnoreCase("April")) {
 
             System.out.println(4);
 
-        }else if(monthName.equalsIgnoreCase("May")){
+        } else if (monthName.equalsIgnoreCase("May")) {
 
             System.out.println(5);
 
-        }else if(monthName.equalsIgnoreCase("June")){
+        } else if (monthName.equalsIgnoreCase("June")) {
 
             System.out.println(6);
 
-        }else if(monthName.equalsIgnoreCase("July")){
+        } else if (monthName.equalsIgnoreCase("July")) {
 
             System.out.println(7);
 
-        }else if(monthName.equalsIgnoreCase("August")){
+        } else if (monthName.equalsIgnoreCase("August")) {
 
             System.out.println(8);
 
-        }else if(monthName.equalsIgnoreCase("September")){
+        } else if (monthName.equalsIgnoreCase("September")) {
 
             System.out.println(9);
 
-        }else if(monthName.equalsIgnoreCase("October")){
+        } else if (monthName.equalsIgnoreCase("October")) {
 
             System.out.println(10);
 
-        }else if(monthName.equalsIgnoreCase("November")){
+        } else if (monthName.equalsIgnoreCase("November")) {
 
             System.out.println(11);
 
-        }else if(monthName.equalsIgnoreCase("December")){
+        } else if (monthName.equalsIgnoreCase("December")) {
 
             System.out.println(12);
 
-        }else{
+        } else {
 
             System.out.println("Invalid month name...");
 
@@ -109,20 +106,17 @@ public class IfStatement05 {
         String m = "Tom";
 
 
-
-        System.out.println(s==t);// false cunku; adres'ler ve degerler farkli
+        System.out.println(s == t);// false cunku; adres'ler ve degerler farkli
 
         System.out.println(s.equals(t));// false cunku; degerler farkli
 
 
-
-        System.out.println(s==r);// false cunku adres'ler farkli
+        System.out.println(s == r);// false cunku adres'ler farkli
 
         System.out.println(s.equals(r));//true cunku equals() sadece degerlere bakar. "s" ve "r" nin degerleri ayni oldugundan true verir.
 
 
-
-        System.out.println(s==m);//
+        System.out.println(s == m);//
 
         System.out.println(s.equals(m));//true
 

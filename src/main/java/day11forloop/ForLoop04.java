@@ -8,7 +8,7 @@ public class ForLoop04 {
         //           5 + 6 + 7 + 8 ==> 26
         int sum = 0;
 
-        for(int i=5; i<9; i++){
+        for (int i = 5; i < 9; i++) {
             sum = sum + i;
         }
         System.out.println(sum);// 26
@@ -16,8 +16,8 @@ public class ForLoop04 {
         //Example 2: 7'den 9'a kadar tamsayilarin carpimini veren kodu yaziniz.
         //           7*8*9 ==> 504
         int multiply = 1;
-        for(int i=7; i<10; i++){
-            multiply = multiply*i;
+        for (int i = 7; i < 10; i++) {
+            multiply = multiply * i;
         }
         System.out.println(multiply);
 

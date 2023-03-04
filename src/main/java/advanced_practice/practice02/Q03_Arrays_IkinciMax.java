@@ -22,7 +22,6 @@ public class Q03_Arrays_IkinciMax {
         int[] arr = {100, 10001, -90, 845, 8787, 898, 0, 1};
 
 
-
         //1. Yol:
 
         Arrays.sort(arr);
@@ -32,9 +31,7 @@ public class Q03_Arrays_IkinciMax {
         System.out.println("min:" + arr[0] + " max:" + arr[arr.length - 1] + " secMax:" + arr[arr.length - 2]);
 
 
-
         //2. Yol: //{ 100, 10001, -90, 845, 8787, 898, 0, 1};
-
 
 
         int min = arr[0];
@@ -42,7 +39,6 @@ public class Q03_Arrays_IkinciMax {
         int max = arr[0];
 
         int secMax = arr[0];
-
 
 
         for (int w : arr) {
@@ -66,8 +62,7 @@ public class Q03_Arrays_IkinciMax {
         }
 
 
-
-        System.out.println("min:"+min+" max:"+max+" secMax:"+secMax);
+        System.out.println("min:" + min + " max:" + max + " secMax:" + secMax);
 
     }
 

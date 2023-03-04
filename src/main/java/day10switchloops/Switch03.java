@@ -4,7 +4,6 @@
 package day10switchloops;
 
 
-
 import java.util.Scanner;
 
 public class Switch03 {
@@ -32,8 +31,7 @@ public class Switch03 {
         String countryName = input.nextLine();
 
 
-
-        switch(countryName.toLowerCase()){
+        switch (countryName.toLowerCase()) {
 
             case "america":
 

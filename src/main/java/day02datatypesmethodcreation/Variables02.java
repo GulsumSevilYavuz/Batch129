@@ -36,8 +36,6 @@ public class Variables02 {    /*
     public static void main(String[] args) {
 
 
-
-
         //Ornek 1: Sehir ismi icin bir variable olusturun ve bir deger atayip onu ekrana yazdirin
 
         String cityName = "Miami";
@@ -45,9 +43,7 @@ public class Variables02 {    /*
         System.out.println(cityName);
 
 
-
     }
-
 
 
 }

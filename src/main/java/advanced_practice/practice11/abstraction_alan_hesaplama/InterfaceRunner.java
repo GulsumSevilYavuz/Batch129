@@ -18,10 +18,9 @@ public class InterfaceRunner {
     public static void main(String[] args) {
 
 
-
         MaasHesapla maasHesapla = new MaasHesapla();
 
-        System.out.println(maasHesapla.netMaas(10000,9,170));
+        System.out.println(maasHesapla.netMaas(10000, 9, 170));
 
     }
 }

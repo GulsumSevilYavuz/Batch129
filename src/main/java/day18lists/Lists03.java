@@ -15,25 +15,25 @@ public class Lists03 {
         nums.add(7);
         nums.add(12);
         nums.add(11);
-nums.set(2, 123);
+        nums.set(2, 123);
         System.out.println(nums);
         //1.Yol:
         // 12, 13, 7, 12, 11
-        for(Integer w : nums){
-            if(w==7){
+        for (Integer w : nums) {
+            if (w == 7) {
                 continue;
             }
-            nums.set(nums.indexOf(w),w+3);
+            nums.set(nums.indexOf(w), w + 3);
         }
         System.out.println(nums);//[15, 16, 7, 15, 14]
 
         //2.Yol:
-        for(int i=0; i<nums.size(); i++){
+        for (int i = 0; i < nums.size(); i++) {
             int element = nums.get(i);
-            if(element==7){
+            if (element == 7) {
                 continue;
             }
-            nums.set(i, element+3);
+            nums.set(i, element + 3);
         }
         System.out.println(nums);//[18, 19, 7, 18, 17]
 

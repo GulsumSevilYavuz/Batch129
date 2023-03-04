@@ -26,20 +26,24 @@ public class MethodOverloading01 {
         add(3, 5);
     }
 
-    private static void add(int a, int b){
-        System.out.println(a+b);
+    private static void add(int a, int b) {
+        System.out.println(a + b);
     }
-    private static void add(double a, double b){
-        System.out.println(a+b);
+
+    private static void add(double a, double b) {
+        System.out.println(a + b);
     }
-    private static void add(double a, int b){
-        System.out.println(a+b);
+
+    private static void add(double a, int b) {
+        System.out.println(a + b);
     }
-    private static void add(int a, double b){
-        System.out.println(a+b);
+
+    private static void add(int a, double b) {
+        System.out.println(a + b);
     }
-    private static void add(int a, int b, int c){
-        System.out.println(a+b+c);
+
+    private static void add(int a, int b, int c) {
+        System.out.println(a + b + c);
     }
 
 }

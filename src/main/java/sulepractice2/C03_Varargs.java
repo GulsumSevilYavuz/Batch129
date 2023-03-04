@@ -4,7 +4,6 @@ public class
 C03_Varargs {
 
 
-
     public static void main(String[] args) {
 
         // Kac tane String verilirse verilsin
@@ -22,34 +21,30 @@ C03_Varargs {
         String str5 = "Sahsanem";
 
 
-
         enUzunIsim(str1, str2, str3, str4, str5);
 
     }//main
 
 
-
     private static void enUzunIsim(String... str) {
 
-        String enUzunStr="";
+        String enUzunStr = "";
 
 
-
-        for ( String w :str
+        for (String w : str
 
         ) {
 
 
-            if(w.length()>enUzunStr.length()){
+            if (w.length() > enUzunStr.length()) {
 
-                enUzunStr=w;
+                enUzunStr = w;
 
             }
 
         }//foreach
 
         System.out.println("enUzunStr = " + enUzunStr);//Sahsanem
-
 
 
     }//method

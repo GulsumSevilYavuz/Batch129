@@ -6,9 +6,7 @@ package day10switchloops;
 import java.util.Scanner;
 
 
-
 public class Switch02 {
-
 
 
     public static void main(String[] args) {
@@ -19,7 +17,6 @@ public class Switch02 {
         Scanner input = new Scanner(System.in);
 
 
-
         System.out.println("Iki sayi giriniz...");
 
         double a = input.nextDouble();
@@ -27,40 +24,39 @@ public class Switch02 {
         double b = input.nextDouble();
 
 
-
         System.out.println("Yapilacak islemi giriniz. +, -, *, /, % dan birini seciniz...");
 
         char opr = input.next().charAt(0);
 
-        switch(opr){
+        switch (opr) {
 
             case '+':
 
-                System.out.println(a + "+" + b + "=" + (a+b));
+                System.out.println(a + "+" + b + "=" + (a + b));
 
                 break;
 
             case '-':
 
-                System.out.println(a + "-" + b + "=" + (a-b));
+                System.out.println(a + "-" + b + "=" + (a - b));
 
                 break;
 
             case '*':
 
-                System.out.println(a + "*" + b + "=" + (a*b));
+                System.out.println(a + "*" + b + "=" + (a * b));
 
                 break;
 
             case '/':
 
-                System.out.println(a + "/" + b + "=" + (a/b));
+                System.out.println(a + "/" + b + "=" + (a / b));
 
                 break;
 
             case '%':
 
-                System.out.println(a + "%" + b + "=" + (a*b/100));
+                System.out.println(a + "%" + b + "=" + (a * b / 100));
 
                 break;
 
@@ -69,7 +65,6 @@ public class Switch02 {
                 System.out.println("Bu islem tanimlanmamistir...");
 
         }
-
 
 
     }

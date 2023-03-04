@@ -1,4 +1,5 @@
 package advanced_practice.practice3;
+
 import java.util.Scanner;
 
 public class Q05_NestedForLoop_CarpimTablosu {
@@ -29,7 +30,7 @@ public class Q05_NestedForLoop_CarpimTablosu {
 
             for (int j = 1; j <= limit; j++) {
 
-                System.out.print(String.format("%2d",j*i)  + " ");
+                System.out.print(String.format("%2d", j * i) + " ");
 
             }
             System.out.println();

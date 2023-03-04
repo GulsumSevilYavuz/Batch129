@@ -3,13 +3,10 @@ package day03scanner;
 import java.util.Scanner;
 
 
-
 public class Scanner05 {
 
 
-
     public static void main(String[] args) {
-
 
 
         //Kullanicidan bir dikdortgenin iki kenar uzunlugunu aliniz
@@ -17,7 +14,6 @@ public class Scanner05 {
         //i)Alanini hesaplayiniz ==> Kisa kenar * Uzun kenar
 
         //ii)Cevresini hesaplayiniz ==> 2*Kisa Kenar + 2*Uzun Kenar
-
 
 
         Scanner input = new Scanner(System.in);
@@ -28,23 +24,18 @@ public class Scanner05 {
         float shortSide = input.nextFloat();
 
 
-
         System.out.println("Dikdortgenin uzun kenar uzunlugunu giriniz...");
 
-        float longSide =input.nextFloat();
-
+        float longSide = input.nextFloat();
 
 
         System.out.println("Alan = " + (shortSide * longSide));
 
 
-
-        System.out.println("Cevre = " + (2*shortSide + 2*longSide));
-
+        System.out.println("Cevre = " + (2 * shortSide + 2 * longSide));
 
 
     }
-
 
 
 }

@@ -11,12 +11,12 @@ public class Exceptions03 {
     }
 
     //String'lerde var olmayan index'ler kullanildiginda Java StringIndexOutOfBoundsException atar.
-    public static void getCharFromString(String s, int idx){
+    public static void getCharFromString(String s, int idx) {
 
         try {
             char ch = s.charAt(idx);
             System.out.println(ch);
-        }catch(StringIndexOutOfBoundsException e){
+        } catch (StringIndexOutOfBoundsException e) {
             System.out.println("Olmayan index kullanma hatasi yaptiniz..." + e.getMessage());
             System.out.println(e.getCause());
             e.printStackTrace();

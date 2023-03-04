@@ -1,4 +1,5 @@
 package day33maps;
+
 import java.util.Arrays;
 import java.util.HashMap;
 
@@ -18,17 +19,17 @@ public class HashMaps03 {
         String[] lettersArray = sentence.split("");
         System.out.println(Arrays.toString(lettersArray));// [J, a, v, a, i, s, J, a, v, a]
 
-        for(String w : lettersArray){
+        for (String w : lettersArray) {
 
             Integer numOfOccurrence = lettersMap.get(w);
 
-            if(numOfOccurrence==null){
+            if (numOfOccurrence == null) {
 
-                lettersMap.put(w,1);
+                lettersMap.put(w, 1);
 
-            }else{
+            } else {
 
-                lettersMap.replace(w, numOfOccurrence+1);
+                lettersMap.replace(w, numOfOccurrence + 1);
 
             }
 

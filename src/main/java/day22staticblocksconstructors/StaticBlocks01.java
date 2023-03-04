@@ -12,12 +12,12 @@ public class StaticBlocks01 {
     static double pi;
     static String shape;
 
-    static{
+    static {
         pi = 3.14;
         System.out.println("Static block 1");
     }
 
-    static{
+    static {
         shape = "Circle";
         System.out.println("Static block 2");
     }

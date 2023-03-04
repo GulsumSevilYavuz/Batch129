@@ -20,9 +20,7 @@ public class ForLoop04 {
      */
 
 
-
         Scanner input = new Scanner(System.in);
-
 
 
         System.out.println("Baslangic degerini giriniz...");
@@ -34,18 +32,15 @@ public class ForLoop04 {
         int end = input.nextInt();
 
 
-        if(start>end){
-
+        if (start > end) {
 
 
             System.out.println("Baslangic degeri bitis degerinden buyuk olamaz...");
 
 
-
-        }else {
+        } else {
 
             for (int i = start; i <= end; i++) {
-
 
 
                 if (i % 2 == 0) {
@@ -55,13 +50,11 @@ public class ForLoop04 {
                 }
 
 
-
             }
 
         }
 
     }
-
 
 
 }

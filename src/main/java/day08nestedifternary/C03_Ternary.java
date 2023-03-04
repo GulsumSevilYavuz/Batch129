@@ -3,7 +3,6 @@ package day08nestedifternary;
 import java.util.Scanner;
 
 
-
 public class C03_Ternary {
 
     /*
@@ -21,7 +20,6 @@ public class C03_Ternary {
      */
 
 
-
     public static void main(String[] args) {
 
 
@@ -32,9 +30,7 @@ public class C03_Ternary {
         int sayi = input.nextInt();
 
 
-
         System.out.println("********* if ile cozumu***************");
-
 
 
         boolean sifirdanBuyukUcBas = sayi > 99 && sayi < 1000;
@@ -42,7 +38,6 @@ public class C03_Ternary {
         boolean sifirdanBuyukUcBasOlmayanCift = !(sayi > 99 && sayi < 1000) && sayi % 2 == 0;
 
         if (sayi > 0) {
-
 
 
             if (sifirdanBuyukUcBas) {
@@ -64,10 +59,9 @@ public class C03_Ternary {
         }//if body
 
 
-
         System.out.println("*** Ternary **************");
 
-        boolean pozitifseTernary=sayi>0;
+        boolean pozitifseTernary = sayi > 0;
 
         boolean sifirdanBuyukUcBasTernary = sayi > 99 && sayi < 1000;
 
@@ -81,7 +75,7 @@ public class C03_Ternary {
 
 */
 
-        String  sonuc  = (pozitifseTernary) ?(sifirdanBuyukUcBasTernary) ? ("3 basamaklı sayi") ://0'dan buyuk 3 basamakli ise incelendi
+        String sonuc = (pozitifseTernary) ? (sifirdanBuyukUcBasTernary) ? ("3 basamaklı sayi") ://0'dan buyuk 3 basamakli ise incelendi
 
                 (sifirdanBuyukUcBasDegilCiftTernary ? "3 basamaklı olmayan çift sayı" : "3 basamaklı olmayan tek sayı ") :     //0'dan buyuk 3 basamakli degilse incelendi
 

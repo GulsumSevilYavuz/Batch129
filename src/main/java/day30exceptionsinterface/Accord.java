@@ -1,6 +1,6 @@
 package day30exceptionsinterface;
 
-public class Accord extends Ac implements Engine, Security{
+public class Accord extends Ac implements Engine, Security {
 
     @Override
 
@@ -9,7 +9,6 @@ public class Accord extends Ac implements Engine, Security{
         System.out.println("Accord cools super");
 
     }
-
 
 
     @Override

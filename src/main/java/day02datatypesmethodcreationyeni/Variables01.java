@@ -8,19 +8,16 @@ public class Variables01 {
     //double: Virgullu sayilar(Ondalik Sayilar - Decimal Numbers) icin kullanilir. (Hucre Agirligi: 0.000000000000112)
 
 
+    //Note 1: primitive data type'larini Java olusturmustur, biz olusturamayiz
 
-        //Note 1: primitive data type'larini Java olusturmustur, biz olusturamayiz
+    //Note 2: primitive data type'larinin isimlerinde sadece kucuk harf kullanilir
 
-        //Note 2: primitive data type'larinin isimlerinde sadece kucuk harf kullanilir
+    //Note 3: primitive data'lar data type'lara gore memory de farkli farkli yer kaplarlar
 
-        //Note 3: primitive data'lar data type'lara gore memory de farkli farkli yer kaplarlar
-
-        //Note 4: primitive data'lar iclerinde sadece sizin atadiginiz degeri barindirirlar
-
+    //Note 4: primitive data'lar iclerinde sadece sizin atadiginiz degeri barindirirlar
 
 
     public static void main(String[] args) {
-
 
 
         //Ornek 1: Gomlek ve ayakkabi fiyatlari icin iki tane variable olusturup toplam fiyati ekrana yazdiriniz.
@@ -44,11 +41,9 @@ public class Variables01 {
         System.out.println(shirtPrice + shoesPrice);
 
 
-
         //System.out.println() yazdirmanin kisa yolu ==> "sout" yaz ve Enter'a bas
 
         System.out.println();
-
 
 
         //Ornek 2: Hucre agirligi ve Amip'in agirligi icin iki tane variable olusturun ve agirliklari farkini ekrana yazdirin

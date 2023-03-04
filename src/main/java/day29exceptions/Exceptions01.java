@@ -9,7 +9,7 @@ public class Exceptions01 {
         try {
             str = (String) obj;// Birbirine donusturulemeyecek data type'larini donusturmekte israr ederseniz Java ClassCastException atar
             System.out.println(str);
-        }catch(ClassCastException e){
+        } catch (ClassCastException e) {
             System.out.println("Her data type'i her data type'ine cevrilmez");
         }
 

@@ -36,7 +36,7 @@ Project: Bir siteye üye olma ve giriş yapma sayfası tasarlayınız.
 
     }
 
-    public static void start(){
+    public static void start() {
         UserService userService = new UserService();
         Scanner scanner = new Scanner(System.in);
         int select;
@@ -44,7 +44,7 @@ Project: Bir siteye üye olma ve giriş yapma sayfası tasarlayınız.
         do {
             userService.showMenu();
             select = scanner.nextInt();
-            switch (select){
+            switch (select) {
                 case 1:
                     userService.register();
                     break;
@@ -57,7 +57,7 @@ Project: Bir siteye üye olma ve giriş yapma sayfası tasarlayınız.
                 default:
                     System.out.println("Hatali giris yaptiniz. Yeniden deneyiniz.");
             }
-        }while (select!=3);
+        } while (select != 3);
     }
 
 }

@@ -1,4 +1,5 @@
 package day14arraysforeachloop;
+
 import java.util.Arrays;
 
 public class Arrays03 {
@@ -26,10 +27,10 @@ public class Arrays03 {
         //Verilen array'de eleman sayisi 5 ve 5'den kucuk olan kac eleman var bulmaliyiz.
         int counter = 0;
         // Red, Orange, Blue, Yellow, Green, Brown
-        for(String w : colors){
+        for (String w : colors) {
 
 
-            if(w.length()<=5){
+            if (w.length() <= 5) {
                 counter++;
             }
         }
@@ -40,16 +41,15 @@ public class Arrays03 {
         //Character sayisi 5 ve 5'den kucuk olanlari yeni array'e transfer et
         int eleman = 0;
         // Red, Orange, Blue, Yellow, Green, Brown
-        for(String w : colors){
+        for (String w : colors) {
 
-            if(w.length()<=5){
+            if (w.length() <= 5) {
                 newColors[eleman] = w;//colors arrayini newscolora atadik(karakter sayisi 5 ve kücük olanlari
                 eleman++;
             }
         }
         System.out.println(Arrays.toString(newColors));// [Red, Blue, Green, Brown]
     }
-
 
 
 }

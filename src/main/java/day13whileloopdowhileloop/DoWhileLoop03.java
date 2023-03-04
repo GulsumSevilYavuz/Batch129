@@ -1,16 +1,11 @@
 package day13whileloopdowhileloop;
 
 
-
-
-
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
 
-
 public class DoWhileLoop03 {
-
 
 
     public static void main(String[] args) {
@@ -32,18 +27,15 @@ public class DoWhileLoop03 {
          */
 
 
-
         Scanner input = new Scanner(System.in);
-
 
 
         int counter = 0;
 
 
+        do {
 
-        do{
-
-            if(counter==4){
+            if (counter == 4) {
 
                 System.out.println("Hesabiniz bloke olmustur!");
 
@@ -52,11 +44,9 @@ public class DoWhileLoop03 {
             }
 
 
-
             System.out.println("Username'i giriniz...");
 
             String username = input.next();
-
 
 
             System.out.println("Password'u giriniz...");
@@ -64,8 +54,7 @@ public class DoWhileLoop03 {
             String password = input.next();
 
 
-
-            if(username.equals("admin") && password.equals("pwd123")){
+            if (username.equals("admin") && password.equals("pwd123")) {
 
                 System.out.println("Hesabiniza hosgeldiniz!");
 
@@ -76,13 +65,10 @@ public class DoWhileLoop03 {
             counter++;
 
 
-
-        }while(counter<=4);//ögretmen buraya true yapmisti
-
+        } while (counter <= 4);//ögretmen buraya true yapmisti
 
 
     }
-
 
 
 }

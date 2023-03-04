@@ -1,4 +1,5 @@
 package advanced_practice.practice01;
+
 import java.util.Scanner;
 
 public class Q03_Ternary_NotSistemi {
@@ -20,10 +21,9 @@ public class Q03_Ternary_NotSistemi {
         int notSayi = input.nextInt();
 
 
-
         String notHarf =
 
-                notSayi>100 ?
+                notSayi > 100 ?
 
                         "0 ile 100 arasi bir not giriniz" : notSayi > 89 ?
 
@@ -35,14 +35,12 @@ public class Q03_Ternary_NotSistemi {
 
                         "D" : notSayi > 49 ?
 
-                        "E" : notSayi>-1 ?
+                        "E" : notSayi > -1 ?
 
                         "F" : "0 ile 100 arasi bir not giriniz";
 
 
-
         System.out.println("notHarf = " + notHarf);
-
 
 
     }

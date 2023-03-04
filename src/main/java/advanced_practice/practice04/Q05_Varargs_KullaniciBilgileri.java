@@ -7,25 +7,20 @@ public class Q05_Varargs_KullaniciBilgileri {
     public static void main(String[] args) {
 
 
-
-
-
-        bilgiler("Ali","Can",22,"Ankara","Konya","Erzurum", "Ağrı", "Diyarbakır", "Kayseri");
+        bilgiler("Ali", "Can", 22, "Ankara", "Konya", "Erzurum", "Ağrı", "Diyarbakır", "Kayseri");
 
         System.out.println();
 
-        bilgiler2("Ali","Can","22","Ankara","Konya","Erzurum", "Ağrı", "Diyarbakır", "Kayseri");
+        bilgiler2("Ali", "Can", "22", "Ankara", "Konya", "Erzurum", "Ağrı", "Diyarbakır", "Kayseri");
 
         System.out.println();
 
-        bilgiler2("Ahmet","Tan","33","Hamburg","Bremen", "Berlin");
+        bilgiler2("Ahmet", "Tan", "33", "Hamburg", "Bremen", "Berlin");
 
     }
 
 
-
-    public static void bilgiler(String ad, String soyad, int yas, String... sehirler){
-
+    public static void bilgiler(String ad, String soyad, int yas, String... sehirler) {
 
 
         System.out.println("ad = " + ad);
@@ -36,12 +31,10 @@ public class Q05_Varargs_KullaniciBilgileri {
 
         System.out.print("Yaşanılmış sehirler: ");
 
-        for(String w : sehirler){
+        for (String w : sehirler) {
 
 
-
-            System.out.print(w+" ");
-
+            System.out.print(w + " ");
 
 
         }
@@ -49,29 +42,28 @@ public class Q05_Varargs_KullaniciBilgileri {
     }
 
 
-    public static void bilgiler2(String... bilgiler){
+    public static void bilgiler2(String... bilgiler) {
 
 
+        for (int i = 0; i < bilgiler.length; i++) {
 
-        for(int i=0; i<bilgiler.length; i++){
+            if (i == 0) {
 
-            if(i==0){
+                System.out.println("Ad: " + bilgiler[i]);
 
-                System.out.println("Ad: "+bilgiler[i]);
+            } else if (i == 1) {
 
-            } else if (i==1) {
+                System.out.println("Soyad: " + bilgiler[i]);
 
-                System.out.println("Soyad: "+bilgiler[i]);
+            } else if (i == 2) {
 
-            } else if (i==2) {
-
-                System.out.println("Yaş: "+bilgiler[i]);
+                System.out.println("Yaş: " + bilgiler[i]);
 
                 System.out.print("Yaşanılan Şehirler: ");
 
-            }else {
+            } else {
 
-                System.out.print(bilgiler[i]+" ");
+                System.out.print(bilgiler[i] + " ");
 
             }
 

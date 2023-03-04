@@ -4,9 +4,7 @@ package day16multidimensionalarrays;
 import java.util.Arrays;
 
 
-
 public class Md04 {
-
 
 
     public static void main(String[] args) {
@@ -56,4 +54,5 @@ public class Md04 {
         System.out.println(Arrays.toString(b));
 
 
-    }}
+    }
+}

@@ -1,14 +1,12 @@
 package day03scanner;
 
-    import java.util.Scanner;
+import java.util.Scanner;
 
 
-    public class Scanner01 {
+public class Scanner01 {
 
 
-
-        //Kullanicidan data alip kodlarimizda kullanacagiz
-
+    //Kullanicidan data alip kodlarimizda kullanacagiz
 
 
     public static void main(String[] args) {

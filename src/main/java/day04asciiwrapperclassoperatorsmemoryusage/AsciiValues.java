@@ -3,17 +3,14 @@ package day04asciiwrapperclassoperatorsmemoryusage;
 public class AsciiValues {
 
 
+    //Java da her karakterin sayisal bir degeri vardir.
 
-        //Java da her karakterin sayisal bir degeri vardir.
+    //Bu degerler ASCII Deger'ler olarak adlandirilir.
 
-        //Bu degerler ASCII Deger'ler olarak adlandirilir.
-
-        //Bu degerlerin tamaminin bulundugu tabloya ASCII Table denir.
-
+    //Bu degerlerin tamaminin bulundugu tabloya ASCII Table denir.
 
 
     public static void main(String[] args) {
-
 
 
         //Herhangi bir character'in ASCII degerini bulmak icin o karakteri "int" data type'inda bir variable'in icine koyunuz.
@@ -23,11 +20,9 @@ public class AsciiValues {
         System.out.println(ch);
 
 
-
         int unlem = '!';
 
         System.out.println(unlem);
-
 
 
         char c1 = 'K';

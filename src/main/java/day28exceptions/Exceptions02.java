@@ -13,13 +13,13 @@ public class Exceptions02 {
     }
 
     //Icinde rakamlar disinda character olan bir String'i sayiya cevirmek isterseniz Java "NumberFormatException" atar.
-    public static void convertStringToInt(String s){
+    public static void convertStringToInt(String s) {
 
         int intS = 0;
 
         try {
             intS = Integer.valueOf(s);
-        }catch(NumberFormatException e){
+        } catch (NumberFormatException e) {
             System.out.println("Bir String'in sayiya donusturulebilmesi icin rakam disi character icermemesi gerekir");
             System.out.println(e.getMessage());
         }

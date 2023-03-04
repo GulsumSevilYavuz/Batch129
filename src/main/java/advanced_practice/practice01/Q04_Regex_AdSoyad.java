@@ -1,4 +1,5 @@
 package advanced_practice.practice01;
+
 import java.util.Scanner;
 
 public class Q04_Regex_AdSoyad {
@@ -26,10 +27,9 @@ public class Q04_Regex_AdSoyad {
 
         // "\\s" bir bosluk "\\s+" bir veya birden fazla bosluk anlamina gelir.
 
-        String adSoyad = input.nextLine().replaceAll("[^a-zA-Z ]","").replaceAll("\\s+"," ").trim().toLowerCase();
+        String adSoyad = input.nextLine().replaceAll("[^a-zA-Z ]", "").replaceAll("\\s+", " ").trim().toLowerCase();
 
         System.out.println("adSoyad = " + adSoyad);
-
 
 
         String ad = adSoyad.split(" ")[0];
@@ -37,23 +37,19 @@ public class Q04_Regex_AdSoyad {
         String soyAd = adSoyad.split(" ")[1];
 
 
+        String adIlkHarf = ad.substring(0, 1).toUpperCase();
 
-        String adIlkHarf = ad.substring(0,1).toUpperCase();
-
-        String soyAdIlkHarf = soyAd.substring(0,1).toUpperCase();
-
+        String soyAdIlkHarf = soyAd.substring(0, 1).toUpperCase();
 
 
-        String adFormatli = adIlkHarf+ad.substring(1);
+        String adFormatli = adIlkHarf + ad.substring(1);
 
-        String soyAdFormatli = soyAdIlkHarf+soyAd.substring(1);
-
+        String soyAdFormatli = soyAdIlkHarf + soyAd.substring(1);
 
 
         System.out.println("adFormatli = " + adFormatli);
 
         System.out.println("soyAdFormatli = " + soyAdFormatli);
-
 
 
     }

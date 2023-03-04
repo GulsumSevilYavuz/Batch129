@@ -35,15 +35,15 @@ public class Lists02 {
         //2.Yol:
         int random = new Random().nextInt(100);
 
-        while(databaseIsim.contains(userName + random)){
-            random = (int)(Math.random()*100);
+        while (databaseIsim.contains(userName + random)) {
+            random = (int) (Math.random() * 100);
         }
 
-        if(databaseIsim.contains(userName)){
+        if (databaseIsim.contains(userName)) {
 
             System.out.println("Bu username database'de var, tekrar kullanilamaz");
             databaseIsim.add(userName + random);
-        }else{
+        } else {
             System.out.println("Bu username kullanilabilir");
             databaseIsim.add(userName);
         }

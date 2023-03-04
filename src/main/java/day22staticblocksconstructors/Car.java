@@ -31,21 +31,21 @@ public class Car {
     int year = 2023;
     boolean hybrid = true;
 
-    public Car(String make, String model, int year, boolean hybrid){
-        this.make=make;
-        this.model=model;
-        this.year=year;
-        this.hybrid=hybrid;
+    public Car(String make, String model, int year, boolean hybrid) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.hybrid = hybrid;
     }
 
-    public Car(String make, String model){
-        this.make=make;
-        this.model=model;
-        if(year==2023){
-            this.year=0;
+    public Car(String make, String model) {
+        this.make = make;
+        this.model = model;
+        if (year == 2023) {
+            this.year = 0;
         }
-        if(hybrid==true){
-            this.hybrid=false;
+        if (hybrid == true) {
+            this.hybrid = false;
         }
     }
 

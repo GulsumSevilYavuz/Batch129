@@ -217,15 +217,14 @@ public class C01_StringManipulationsKisaltmalar {
 
                 System.out.println("Soyisminiz isminizden uzun");
 
-            Scanner input1= new Scanner(System.in);
+            Scanner input1 = new Scanner(System.in);
             System.out.println("LÜTFEN ISIM SOYISM ");
 
-            String   isim1=input1.nextLine(),soyad=input.nextLine();
+            String isim1 = input1.nextLine(), soyad = input.nextLine();
 
-            String tamisim=isim1.concat(""+soyad).toUpperCase();
+            String tamisim = isim1.concat("" + soyad).toUpperCase();
 
 
-            
         }//main
 
     }

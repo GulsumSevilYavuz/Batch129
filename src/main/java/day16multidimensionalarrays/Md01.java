@@ -13,12 +13,12 @@ public class Md01 {
         System.out.println(Arrays.deepToString(a));// [ [0, 0], [0, 0], [0, 0] ]
 
         //MultiDimensional Array'lere eleman nasil eklenir?
-        a[0][0]=5;
-        a[1][1]=45;
-        a[2][0]=123;
-        a[0][1]=12;
-        a[1][0]=81;
-        a[2][1]=0;
+        a[0][0] = 5;
+        a[1][1] = 45;
+        a[2][0] = 123;
+        a[0][1] = 12;
+        a[1][0] = 81;
+        a[2][1] = 0;
         System.out.println(Arrays.deepToString(a));// [ [5, 12], [81, 45], [123, 0] ]
 
         //Note: Array'lere non-primitive data konulamaz.

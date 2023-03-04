@@ -35,7 +35,6 @@ public class C01_MemoryKullanimi {
     public static class C03_MantikOperatorleri {
 
 
-
         //10< sayi  MantikOperatoru sayi<20;
 
         //== Esittir icin cift ==kullanilir  = tek esittir atama (assigment) yapar
@@ -115,5 +114,5 @@ public class C01_MemoryKullanimi {
 
 
         }
-        }
+    }
 }

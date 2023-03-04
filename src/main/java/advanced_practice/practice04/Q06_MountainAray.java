@@ -11,7 +11,7 @@ public class Q06_MountainAray {
   */
     public static void main(String[] args) {
 
-        int[] arr = {1,2,3,4,0,5,4,3,2,1};
+        int[] arr = {1, 2, 3, 4, 0, 5, 4, 3, 2, 1};
 
         //Array'i List'e çevir:
         List<Integer> list = new ArrayList<>();
@@ -62,9 +62,9 @@ public class Q06_MountainAray {
         System.out.println("list2Copy = " + list2Copy);
 
         //Kontrol
-        if(list1.equals(list1Copy)&&list2.equals(list2Copy)){
+        if (list1.equals(list1Copy) && list2.equals(list2Copy)) {
             System.out.println("Mountain Array");
-        }else {
+        } else {
             System.out.println("Mountain Array DEĞİL");
         }
     }

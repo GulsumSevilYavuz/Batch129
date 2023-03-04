@@ -1,6 +1,6 @@
 package practice.practice_daytime.daytime09;
 
-public class Hastane extends VeriBankasi{
+public class Hastane extends VeriBankasi {
     private Doktor doktor;
     private Hasta hasta;
 

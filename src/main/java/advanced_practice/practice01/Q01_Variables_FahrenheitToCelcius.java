@@ -1,4 +1,5 @@
 package advanced_practice.practice01;
+
 import java.text.DecimalFormat;
 
 import java.util.Scanner;
@@ -20,13 +21,10 @@ public class Q01_Variables_FahrenheitToCelcius {
         double f = input.nextDouble();
 
 
-
-        double c = (f-32)*5/9;
-
+        double c = (f - 32) * 5 / 9;
 
 
-        System.out.println("Celcius: "+c);
-
+        System.out.println("Celcius: " + c);
 
 
         //Ondalık kısmı belirli bir formatta yazdırmak için:
@@ -40,11 +38,9 @@ public class Q01_Variables_FahrenheitToCelcius {
         System.out.println("formattedCelcius = " + formattedCelcius);
 
 
-
         //2. Yol: printf ile;
 
-        System.out.printf("Printf ile: " + "%.2f",c);// %=> herhangi bir sayı, 2f=> iki basakmalı format
-
+        System.out.printf("Printf ile: " + "%.2f", c);// %=> herhangi bir sayı, 2f=> iki basakmalı format
 
 
     }

@@ -1,4 +1,5 @@
 package day13whileloopdowhileloop;
+
 import java.util.Scanner;
 
 public class DoWhileLoop02 {
@@ -14,19 +15,19 @@ public class DoWhileLoop02 {
 
         int num = 0;
 
-        do{
+        do {
             System.out.println("Bir sayi giriniz...");
             num = input.nextInt();
 
-            if(num>=100)
+            if (num >= 100)
 
                 System.out.println("Kazandiniz!");
 
-               else
-                System.out.println("kaybettiniz")  ;
+            else
+                System.out.println("kaybettiniz");
 
 
-        }  while(num>=100);
+        } while (num >= 100);
 
 
     }

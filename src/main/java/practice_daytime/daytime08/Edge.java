@@ -1,6 +1,6 @@
 package practice_daytime.daytime08;
 
-public class Edge extends  Browser {
+public class Edge extends Browser {
     String adresCubugu;// null
 
     public Edge() {
@@ -12,11 +12,12 @@ public class Edge extends  Browser {
     }
 
     @Override
-    public void search(){
+    public void search() {
         System.out.println("Edge aratma yapar");
     }
+
     @Override
-    public void sifreKaydetme(){
+    public void sifreKaydetme() {
         System.out.println("Edge istenildiginde sifre kaydeder");
     }
 

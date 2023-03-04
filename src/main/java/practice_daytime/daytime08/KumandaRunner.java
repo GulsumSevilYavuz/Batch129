@@ -4,7 +4,7 @@ public class KumandaRunner {
 
     public static void main(String[] args) {
 
-        Kumanda tv = new Kumanda(11.5,7,9.8);
+        Kumanda tv = new Kumanda(11.5, 7, 9.8);
 
         tv.gucDugmesi();
 
@@ -13,7 +13,6 @@ public class KumandaRunner {
         System.out.println(tv.sesAzaltma());//9
 
         System.out.println(tv.sesArtirma());//10
-
 
 
     }//main

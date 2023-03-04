@@ -1,7 +1,8 @@
 package day21statickeyword;
-import java.util.List;
-public class day21statickeyword {
 
+import java.util.List;
+
+public class day21statickeyword {
 
 
     public class StdRunner {

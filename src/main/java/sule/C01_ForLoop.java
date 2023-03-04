@@ -1,5 +1,7 @@
 package sule;
+
 import java.util.Scanner;
+
 public class C01_ForLoop {
     /*
     Kullanicidan aldiginiz bir String degerde 'c' den onceki 'a'
@@ -9,15 +11,15 @@ public class C01_ForLoop {
 
     public static void main(String[] args) {
 
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Lutfen String bir ifade veriniz ");
-        String str =input.nextLine().toLowerCase();
-        int sayac=0;
+        String str = input.nextLine().toLowerCase();
+        int sayac = 0;
 
-        for (int i = 0;         i <str.length();                i++) {
-            if(str.charAt(i)=='a'){
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == 'a') {
                 sayac++;
-            }else if(str.charAt(i)=='c'){
+            } else if (str.charAt(i) == 'c') {
                 break;
             }
         }

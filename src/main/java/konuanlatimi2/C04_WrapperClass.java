@@ -1,7 +1,6 @@
 package konuanlatimi2;
 
 
-
 public class C04_WrapperClass {
 
 
@@ -50,7 +49,6 @@ public class C04_WrapperClass {
         */
 
 
-
     public static void main(String[] args) {
 
         byte primitiveByte = 12;//primitive datat type larinda nokta koydugumuzda hic bir method gelmez
@@ -58,18 +56,12 @@ public class C04_WrapperClass {
         Byte wrapperByte = 12;//wrapper classlarda nokta koydugumuzda bir cok method kullanabiliriz
 
 
-
-
         //Ex : byte data type'inin en kucuk ve en buyuk degerini ekrana yazdirin
-
 
 
         System.out.println(Byte.MIN_VALUE);//-128
 
         System.out.println(Byte.MAX_VALUE);// 127
-
-
-
 
 
         // Ex  : short , int , long data type'larinin max ve min degerlerini hesaplatan kodu yaziniz
@@ -87,20 +79,16 @@ public class C04_WrapperClass {
         System.out.println(Long.MAX_VALUE);//9223372036854775807
 
 
-
         //************ Primitive'ler Wrapper Classlara Nasil Cevrilir (Autuboxing)*********
 
-        float f1 =13.99F; //kucuk kutu primitive
+        float f1 = 13.99F; //kucuk kutu primitive
 
         Float wrapperF1 = f1;
 
 
-
-
-
         //********** Wrapper Class'lari Primitive Data typelarina Nasil Cevrilir? (Unboxing)******
 
-        Character w1 ='s';
+        Character w1 = 's';
 
         char primitiveW1 = w1;
 
@@ -111,15 +99,13 @@ public class C04_WrapperClass {
 
         //Ex : Verilen iki String datatnin toplamini veren kodu yaziniz
 
-        String str1 ="12345";
+        String str1 = "12345";
 
-        String str2 ="6789";
+        String str2 = "6789";
 
-        System.out.println(str1+str2);//123456789 yan yana yazdirdi
+        System.out.println(str1 + str2);//123456789 yan yana yazdirdi
 
-        System.out.println(Integer.valueOf(str1)+Integer.valueOf(str2));//19134
-
-
+        System.out.println(Integer.valueOf(str1) + Integer.valueOf(str2));//19134
 
 
     }

@@ -8,17 +8,17 @@ public class Scanner10 {
         Scanner sayi = new Scanner(System.in);
 
         System.out.println("5 basamakli sayi giriniz");
-        int sayi1=sayi.nextInt();
+        int sayi1 = sayi.nextInt();
 
-        int  sayi2=sayi1/1000;
+        int sayi2 = sayi1 / 1000;
 
         System.out.println(sayi2);
-      int sayi3= sayi2/10+sayi2%10;
+        int sayi3 = sayi2 / 10 + sayi2 % 10;
         System.out.println(sayi3);
 
-         int sayi4=sayi1%100;
+        int sayi4 = sayi1 % 100;
         System.out.println(sayi4);
-         int sayi5=sayi4/10+sayi4%10;
+        int sayi5 = sayi4 / 10 + sayi4 % 10;
         System.out.println(sayi5);
     }
        /* sayi6Scanner input = new Scanner(System.in);

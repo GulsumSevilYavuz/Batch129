@@ -1,4 +1,5 @@
 package aproje.arabakiralamaprojesi;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -106,7 +107,7 @@ public class ArabaVeMusteriBilgisi extends AracIsteme {
 
         System.out.println("\033[34m \n***** **** *** ** * Arac talep listesi * ** *** **** ***** \033[0m");
         System.out.println("\nLutfen talep ettiginiz aracin liste numarasini yaziniz\n" +
-                "\n L.N - Marka   - Model    - Yakit    -  Vites    - Gunluk Ucret"+
+                "\n L.N - Marka   - Model    - Yakit    -  Vites    - Gunluk Ucret" +
                 "\n 1.   MERCEDES - MayBach  - Diesel   - Automatic -     €250" +
                 "\n 2.   AUDI     - R8       - Diesel   - Automatic -     €350" +
                 "\n 3.   TESLA    - Model Y  - Electric - Automatic -     €150" +
@@ -223,7 +224,6 @@ public class ArabaVeMusteriBilgisi extends AracIsteme {
     static void musteriBilgisi() {
 
 
-
         System.out.println("\033[33m ************************************ \033[0m");
 
 
@@ -243,7 +243,7 @@ public class ArabaVeMusteriBilgisi extends AracIsteme {
         int yas = scanner.nextInt();
 
         System.out.println("\033[33m **************************************** \033[0m");
-        System.out.println(" Ad Soyad : " + ad +" "+ Soyad +
+        System.out.println(" Ad Soyad : " + ad + " " + Soyad +
                 "\n        ID: " + id +
                 "\n   Telefon: " + tlf +
                 "\n       Yas: " + yas +

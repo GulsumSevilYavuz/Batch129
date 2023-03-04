@@ -2,9 +2,9 @@ package practice_daytime.daytime08;
 
 public class Browser {
     public static void main(String[] args) {
-        String adresCubugu="Her Browser'in adres cubugu vardir";
+        String adresCubugu = "Her Browser'in adres cubugu vardir";
 
-        Edge edge =new Edge();
+        Edge edge = new Edge();
         edge.search();
         edge.sifreKaydetme();
         edge.get();
@@ -15,13 +15,16 @@ public class Browser {
 
 
     }
-    public void get(){
+
+    public void get() {
         System.out.println("Browserlar Web sayfasina gider");
     }
-    public void search(){
+
+    public void search() {
         System.out.println("Browserlar aratma yapar");
     }
-    public void sifreKaydetme(){
+
+    public void sifreKaydetme() {
         System.out.println("Browserlar istenildiginde sifre kaydeder");
     }
 

@@ -1,4 +1,5 @@
 package advanced_practice.practice08;
+
 public class Matematik {
 
     public double carpma(double... x) {

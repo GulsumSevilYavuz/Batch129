@@ -3,9 +3,7 @@ package konuanlatimi1;
 import java.util.Scanner;
 
 
-
 public class Scanner05 {
-
 
 
     public static void main(String[] args) {
@@ -18,9 +16,7 @@ public class Scanner05 {
         //ii)Cevresini hesaplayiniz ==> 2*Kisa Kenar + 2*Uzun Kenar
 
 
-
         Scanner input = new Scanner(System.in);
-
 
 
         System.out.println("Dikdortgenin kisa kenar uzunlugunu giriniz...");
@@ -30,16 +26,13 @@ public class Scanner05 {
 
         System.out.println("Dikdortgenin uzun kenar uzunlugunu giriniz...");
 
-        float longSide =input.nextFloat();
-
+        float longSide = input.nextFloat();
 
 
         System.out.println("Alan = " + (shortSide * longSide));
 
 
-
-        System.out.println("Cevre = " + (2*shortSide + 2*longSide));
-
+        System.out.println("Cevre = " + (2 * shortSide + 2 * longSide));
 
 
     }

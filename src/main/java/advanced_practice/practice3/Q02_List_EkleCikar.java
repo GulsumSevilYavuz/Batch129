@@ -1,9 +1,11 @@
 package advanced_practice.practice3;
+
 import java.util.ArrayList;
 
 import java.util.List;
 
 import java.util.Scanner;
+
 public class Q02_List_EkleCikar {
     //Kullanıcıdan aldığınız bir sayıyı bir list'e ekleyen, list'ten çıkaran yada mevcut bir elementi o sayı ile güncelleyen bir kod yazınız.
 
@@ -14,24 +16,21 @@ public class Q02_List_EkleCikar {
         List<Integer> list = new ArrayList<>();
 
 
+        while (true) {
 
-        while (true){
+            System.out.println("Ekleme yapmak için: 'add'\n" +
 
-            System.out.println("Ekleme yapmak için: 'add'\n"+
+                    "Element  güncellemek için: 'set'\n" +
 
-                    "Element  güncellemek için: 'set'\n"+
-
-                    "Element silmek için: 'remove'\n"+
+                    "Element silmek için: 'remove'\n" +
 
                     "Çıkmak için: 'break' komutunu giriniz.");
-
 
 
             String komut = input.next();
 
 
-            if(komut.equalsIgnoreCase("add")){
-
+            if (komut.equalsIgnoreCase("add")) {
 
 
                 System.out.println("Eklemek istediğiniz tamsayıyı giriniz");
@@ -41,9 +40,7 @@ public class Q02_List_EkleCikar {
                 list.add(eklenecekSayi);
 
 
-
             } else if (komut.equalsIgnoreCase("set")) {
-
 
 
                 System.out.println("Güncellemek istediğiniz sayıyı giriniz");
@@ -54,7 +51,7 @@ public class Q02_List_EkleCikar {
 
                 int yeniSayi = input.nextInt();
 
-                list.set(guncellenecekIndex,yeniSayi);
+                list.set(guncellenecekIndex, yeniSayi);
 
 
             } else if (komut.equalsIgnoreCase("remove")) {
@@ -62,19 +59,17 @@ public class Q02_List_EkleCikar {
 
                 System.out.println("Silmek istediğiniz sayıyı giriniz");
 
-                Integer silinecekSayi =  input.nextInt();
+                Integer silinecekSayi = input.nextInt();
 
                 list.remove(silinecekSayi);
-
 
 
             } else if (komut.equalsIgnoreCase("break")) {
 
 
-
                 break;
 
-            }else {
+            } else {
 
                 System.out.println("Geçerli bir komut giriniz.");
 

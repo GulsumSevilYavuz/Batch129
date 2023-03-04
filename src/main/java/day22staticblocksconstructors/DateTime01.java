@@ -49,7 +49,7 @@ public class DateTime01 {
 
         //Iki tarih nasil karsilastirlir?
         // 02/13/2005 - 03/01/2007
-        boolean result = LocalDate.of(2005, 02, 13).isAfter(LocalDate.of(2007,03,01));
+        boolean result = LocalDate.of(2005, 02, 13).isAfter(LocalDate.of(2007, 03, 01));
         System.out.println(result);//false
 
         //Tarih'lerin formatlari nasil degistirilir?

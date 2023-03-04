@@ -1,5 +1,7 @@
 package day14arraysforeachloop;
+
 import java.util.Arrays;
+
 public class Arrays05 {
 
     public static void main(String[] args) {

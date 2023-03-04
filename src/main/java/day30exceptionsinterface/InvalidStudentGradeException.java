@@ -9,16 +9,13 @@ package day30exceptionsinterface;
         5)Kendi olusturdugumuz Exception Class'lara "Custom Exception Class" denir.
      */
 
-public class InvalidStudentGradeException extends Exception{
+public class InvalidStudentGradeException extends Exception {
 
-    public InvalidStudentGradeException(String message){
+    public InvalidStudentGradeException(String message) {
 
         super(message);
 
     }
-
-
-
 
 
 }

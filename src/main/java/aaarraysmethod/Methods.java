@@ -2,9 +2,10 @@ package aaarraysmethod;
 
 public class Methods {
     public static void main(String[] args) {
-        String str="";
+        String str = "";
         System.out.println(str);
-    }   }
+    }
+}
 
    /*
 .add= ekleme yapar

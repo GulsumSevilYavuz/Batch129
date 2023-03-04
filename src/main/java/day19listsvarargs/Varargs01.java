@@ -23,23 +23,23 @@ public class Varargs01 {
     }
 
     //Istediginiz sayida sayiyi toplamak icin bir method olusturunuz
-    public static void add(int... a){
+    public static void add(int... a) {
         int sum = 0;
 
-        for(int w : a){
+        for (int w : a) {
             sum = sum + w;
         }
         System.out.println(sum);
     }
 
     //Iki sayiyi toplayan method olusturunuz
-    public static void addTwoNumbers(int a, int b){
-        System.out.println(a+b);
+    public static void addTwoNumbers(int a, int b) {
+        System.out.println(a + b);
     }
 
     //Uc sayiyi toplayan method olusturunuz
-    public static void addThreeNumbers(int a, int b, int c){
-        System.out.println(a+b+c);
+    public static void addThreeNumbers(int a, int b, int c) {
+        System.out.println(a + b + c);
     }
 }
 

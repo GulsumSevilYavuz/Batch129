@@ -1,9 +1,8 @@
 package advanced_practice.practice07;
+
 import java.util.Scanner;
 
 public class Q05_Matrix {
-
-
 
 
     /*

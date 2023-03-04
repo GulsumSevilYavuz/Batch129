@@ -1,4 +1,5 @@
 package day13whileloopdowhileloop;
+
 import java.util.Arrays;
 
 public class
@@ -30,12 +31,8 @@ Arrays01 {
         System.out.println(stdNames[2]);
 
         //Example 1: Array'deki her elemani sonuna "!" isareti koyarak ekrana yazdiriniz.
-        for(int i=0; i< stdNames.length; i++){
+        for (int i = 0; i < stdNames.length; i++) {
             System.out.println(stdNames[i] + "!");
-
-
-
-
 
 
         }

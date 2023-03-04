@@ -4,13 +4,10 @@
 package day08nestedifternary;
 
 
-
 import java.util.Scanner;
 
 
-
 public class NestedIf04 {
-
 
 
     public static void main(String[] args) {
@@ -36,9 +33,7 @@ public class NestedIf04 {
             */
 
 
-
         Scanner input = new Scanner(System.in);
-
 
 
         System.out.println("Cinsiyetinizi giriniz. Erkek, Kadin, Digerleri");
@@ -46,57 +41,50 @@ public class NestedIf04 {
         String gender = input.next();
 
 
-
         System.out.println("Yasinizi giriniz...");
 
         int age = input.nextInt();
 
 
-
-        if(age<0 || age>120){
-
+        if (age < 0 || age > 120) {
 
 
             System.out.println("Lutfen yasi 0 ile 120 arasinda giriniz");
 
 
-        }else if(gender.equalsIgnoreCase("Kadin")){
+        } else if (gender.equalsIgnoreCase("Kadin")) {
 
 
-
-            if(age>60){
+            if (age > 60) {
 
                 System.out.println("Emekli olabilir...");
 
-            }else{
+            } else {
 
                 System.out.println("Calismali...");
 
             }
 
 
+        } else if (gender.equalsIgnoreCase("Erkek")) {
 
-        }else if(gender.equalsIgnoreCase("Erkek")){
 
-
-            if(age>65){
+            if (age > 65) {
 
                 System.out.println("Emekli olabilir...");
 
-            }else{
+            } else {
 
                 System.out.println("Kesinlikle calismali...");
 
             }
 
 
-
-        }else{
+        } else {
 
             System.out.println("Tanimli degil...");
 
         }
-
 
 
     }

@@ -6,9 +6,8 @@ public class Runner {
     public static void main(String[] args) {
 
 
-
         //Object nasil olusturulur?
-        Car           myCar             =               new             Car();
+        Car myCar = new Car();
 
         System.out.println(myCar.fiyat);
 
@@ -17,7 +16,6 @@ public class Runner {
         myCar.hareket();
 
         myCar.dur();
-
 
 
         Student tomHanks = new Student();

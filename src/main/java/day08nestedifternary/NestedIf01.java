@@ -6,7 +6,6 @@ package day08nestedifternary;
 import java.util.Scanner;
 
 
-
 public class NestedIf01 {
 
 
@@ -57,7 +56,6 @@ public class NestedIf01 {
         System.out.println("Ucgenin kenarlari icin 3 tane uzunluk giriniz...");
 
 
-
         //Kullanici yanlislikla negatif sayi girdi ise kod asagidaki gibi yazilabilir.
 
 //        double a = Math.abs(input.nextDouble());
@@ -67,49 +65,42 @@ public class NestedIf01 {
 //        double c = Math.abs(input.nextDouble());
 
 
-
         double a = input.nextDouble();
 
         double b = input.nextDouble();
 
         double c = input.nextDouble();
 
-        boolean ucgenmi = (a+b>c && c>Math.abs(a-b)) && (a+c>b && b>Math.abs(a-c)) && (b+c>a && a>Math.abs(b-c));
-
+        boolean ucgenmi = (a + b > c && c > Math.abs(a - b)) && (a + c > b && b > Math.abs(a - c)) && (b + c > a && a > Math.abs(b - c));
 
 
         //Kullanicinin negatif sayi girmesini affetmiyorum
 
-        if(a<=0 || b<=0 || c<=0){
-
+        if (a <= 0 || b <= 0 || c <= 0) {
 
 
             System.out.println("Ucgenin kenarlari negatif olamaz");
 
 
-
-        }else if(ucgenmi){
-
+        } else if (ucgenmi) {
 
 
-            if(a==b && b==c && a==c){
+            if (a == b && b == c && a == c) {
 
                 System.out.println("Ucgen hem de eskenar ucgen...");
 
-            }else{
+            } else {
 
                 System.out.println("Ucgen ama eskenar degil...");
 
             }
 
 
-
-        }else{
+        } else {
 
             System.out.println("Sen ucgen degilsin...");
 
         }
-
 
 
     }

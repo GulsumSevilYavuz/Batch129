@@ -23,13 +23,10 @@ public class Q05_Arrays_ToplamVeVeriler {
         int[] arr = {4, 6, 5, -10, 8, 5, 20};
 
 
-
         ikililleriBul(arr, 100);
 
 
-
     }
-
 
 
     public static void ikililleriBul(int[] arr, int toplam) {
@@ -37,13 +34,10 @@ public class Q05_Arrays_ToplamVeVeriler {
         int sayac = 0;
 
 
-
         for (int i = 0; i < arr.length; i++) {
 
 
-
             for (int j = i + 1; j < arr.length; j++) {
-
 
 
                 if (arr[i] + arr[j] == toplam) {
@@ -59,14 +53,12 @@ public class Q05_Arrays_ToplamVeVeriler {
         }
 
 
-
-        if(sayac==0){
+        if (sayac == 0) {
 
             System.out.println("Toplama eşit sayı ikilileri bulunmamaktadır");
 
 
+        }
 
     }
-
-}
 }

@@ -31,8 +31,8 @@ public class TreeSet01 {
 
         long three = System.nanoTime();
 
-        System.out.println("TreeSet in uygulama suresi: " + (two-one));
-        System.out.println("HashSet in uygulama suresi: " + (three-two));
+        System.out.println("TreeSet in uygulama suresi: " + (two - one));
+        System.out.println("HashSet in uygulama suresi: " + (three - two));
 
         //Note: TreeSet eleman ekleme'de cooook yavas, HashSet is cooook hizlidir.
         //      TreeSet'in bu negatif yonunden kurtulmak icin; HashSet olusturur elemanlari ekler ve sonra HashSet'i TreeSet'e ceviririz.
@@ -63,7 +63,7 @@ public class TreeSet01 {
         SortedSet<Integer> tailSet2 = ts.tailSet(15);
         System.out.println(tailSet2);// [25, 32] ==> 15 elemanlardan biri degil o yuzden "15 den sonraki elemanlar" bir Set icinde yazdirildi
 
-        NavigableSet<Integer> tailSet3 =  ts.tailSet(12, false);
+        NavigableSet<Integer> tailSet3 = ts.tailSet(12, false);
         System.out.println(tailSet3);// [25, 32] ==> 12 elemanlardan biri normalde "12 ve sonraki elemanlar" bir Set icinde yazdirilirdi
         // ama ikinci parametre'de "false" kullandigim icin 12 haric tutuldu
 

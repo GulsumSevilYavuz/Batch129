@@ -1,8 +1,6 @@
 package day24accessmodifiersinheritance;
 
 
-
-
 import day23datetimestringbuilder.Snake;
 
 

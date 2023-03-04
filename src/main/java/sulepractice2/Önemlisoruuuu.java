@@ -14,13 +14,10 @@ public class Önemlisoruuuu {
     // int arr2[][] = {{7, 8,9},  {10,11 },       {12}};
 
 
-
     public static void main(String[] args) {
 
 
-
         int sinir = 0;
-
 
 
         int toplam = 0;
@@ -31,7 +28,6 @@ public class Önemlisoruuuu {
 
 
         if (arr1.length <= arr2.length) {
-
 
 
             for (int i = 0; i < arr1.length; i++) {//kisa olan kat secildi
@@ -48,16 +44,14 @@ public class Önemlisoruuuu {
 
                     toplam = arr1[i][j] + arr2[i][j];
 
-                    System.out.println("["+ i +","+ j+"]"+" indexindeki elemanlarin toplami "+toplam);
+                    System.out.println("[" + i + "," + j + "]" + " indexindeki elemanlarin toplami " + toplam);
 
                 }//for j
 
             }//for i
 
 
-
-        }else{
-
+        } else {
 
 
             for (int i = 0; i < arr2.length; i++) {//kisa olan kat secildi
@@ -74,7 +68,7 @@ public class Önemlisoruuuu {
 
                     toplam = arr1[i][j] + arr2[i][j];
 
-                    System.out.println("["+ i +","+ j+"]"+" indexindeki elemanlarin toplami "+toplam);
+                    System.out.println("[" + i + "," + j + "]" + " indexindeki elemanlarin toplami " + toplam);
 
                 }//for j
 

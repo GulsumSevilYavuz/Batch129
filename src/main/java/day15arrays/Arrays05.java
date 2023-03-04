@@ -10,7 +10,7 @@ public class Arrays05 {
 
         //Example 1: String Array elemanlarini character sayisina gore kucukten buyuge siralayiniz.
         //          ["Michael", "Ajda", "Thomas", "Tom"] ==> ["Tom", "Ajda", "Thomas", "Michael"]
-        String arr[] = { "Michael", "Ajda", "Thomas", "Tom" };
+        String arr[] = {"Michael", "Ajda", "Thomas", "Tom"};
         System.out.println(Arrays.toString(arr));
 
         Arrays.sort(arr, Comparator.comparingInt(String::length));
@@ -18,7 +18,7 @@ public class Arrays05 {
 
         //Example 2: String Array elemanlarini character sayisina gore buyukten kucuge siralayiniz.
         //          ["Michael", "Ajda", "Thomas", "Tom"] ==> [ "Michael", "Thomas", "Cuneyt", "Ajda", "Tom"]
-        String brr[] = { "Michael", "Ajda", "Thomas", "Tom", "Cuneyt" };
+        String brr[] = {"Michael", "Ajda", "Thomas", "Tom", "Cuneyt"};
         System.out.println(Arrays.toString(brr));
 
         Arrays.sort(brr, Comparator.comparingInt(String::length).reversed());
@@ -28,7 +28,7 @@ public class Arrays05 {
         //           Ayni character sayisinda olanlari da alfabetik siraya koyunuz.
         //          ["Michael", "Ajda", "Reyhane", "Gabriel", "Thomas", "Tom", "Ali", "Cin", "Cuneyt", "Cem"]
         //          [ "Gabriel", "Michael", "Reyhane", "Thomas", "Cuneyt", "Ajda", "Ali", "Cem", "Cin", "Tom"]
-        String crr[] = { "Michael", "Ajda", "Reyhane", "Gabriel", "Thomas", "Tom", "Ali", "Cin", "Cuneyt", "Cem" };
+        String crr[] = {"Michael", "Ajda", "Reyhane", "Gabriel", "Thomas", "Tom", "Ali", "Cin", "Cuneyt", "Cem"};
         System.out.println(Arrays.toString(crr));
 
         Arrays.sort(crr, Comparator.comparingInt(String::length).reversed().thenComparing(Comparator.naturalOrder()));

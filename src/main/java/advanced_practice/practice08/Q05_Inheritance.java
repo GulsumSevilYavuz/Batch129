@@ -1,4 +1,6 @@
-package advanced_practice.practice08;public class Q05_Inheritance {
+package advanced_practice.practice08;
+
+public class Q05_Inheritance {
     //Dairenin alanını hesalayan bir method oluşturunuz.(matematik işlemleri için inheritance kullanınız)
     public static void main(String[] args) {
 
@@ -7,10 +9,10 @@ package advanced_practice.practice08;public class Q05_Inheritance {
 
     }
 
-    static void daireAlani(int r){
+    static void daireAlani(int r) {
 
         Daire daireObjesi = new Daire();
-        System.out.println(daireObjesi.carpma(daireObjesi.piSayisi,daireObjesi.karesiniAl(r)) );
+        System.out.println(daireObjesi.carpma(daireObjesi.piSayisi, daireObjesi.karesiniAl(r)));
 
     }
 

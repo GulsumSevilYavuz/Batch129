@@ -1,7 +1,7 @@
 package practice_daytime.daytime08;
 
-public class BagetEkmek extends TSE{
-    static int fiyat=30;
+public class BagetEkmek extends TSE {
+    static int fiyat = 30;
 
     public static void main(String[] args) {
         BagetEkmek baget = new BagetEkmek();
@@ -9,6 +9,7 @@ public class BagetEkmek extends TSE{
         baget.odunAtesindePiser();
         baget.hijyenikOlma();
     }
+
     @Override
     void gramaj500() {
 

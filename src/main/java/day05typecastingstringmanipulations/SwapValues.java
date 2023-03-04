@@ -3,9 +3,7 @@ package day05typecastingstringmanipulations;
 public class SwapValues {
 
 
-
-        //Swap: Yer degistirmek. 1.kap:Patates 2.kap:Domates ==> Swap ==> 1.kap:Domates 2.kap:Patates
-
+    //Swap: Yer degistirmek. 1.kap:Patates 2.kap:Domates ==> Swap ==> 1.kap:Domates 2.kap:Patates
 
 
     public static void main(String[] args) {
@@ -20,11 +18,9 @@ public class SwapValues {
         int temp = 0;
 
 
+        System.out.println("a: " + a);//12
 
-        System.out.println( "a: " + a);//12
-
-        System.out.println( "b: " + b);//5
-
+        System.out.println("b: " + b);//5
 
 
         //I.Adim
@@ -32,11 +28,9 @@ public class SwapValues {
         temp = a;
 
 
-
         //II.Adim
 
         a = b;
-
 
 
         //III.Adim
@@ -44,9 +38,9 @@ public class SwapValues {
         b = temp;
 
 
-        System.out.println( "a: " + a);//5
+        System.out.println("a: " + a);//5
 
-        System.out.println( "b: " + b);//12
+        System.out.println("b: " + b);//12
 
 
         //2.Yol:
@@ -64,7 +58,6 @@ public class SwapValues {
 
 
     }
-
 
 
 }

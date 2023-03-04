@@ -1,7 +1,6 @@
 package advanced_practice.practice05;
 
 
-
 public class Q06_SimetrikArray {
     // Bir Array'in simetrik olup olmadığını kontrol eden bir method oluşturunuz.
     public static void main(String[] args) {

@@ -1,11 +1,9 @@
 package deneme;
 
 
-
 import java.util.ArrayList;
 
 import java.util.Scanner;
-
 
 
 public class soru {
@@ -14,66 +12,65 @@ public class soru {
     public static void main(String[] args) {
 
 
+        // Bir öğretmenden girmek istediği kadar notu alınız, ve ortalamayı geçen öğrenci sayısını bulunuz.
 
-            // Bir öğretmenden girmek istediği kadar notu alınız, ve ortalamayı geçen öğrenci sayısını bulunuz.
+        Scanner input = new Scanner(System.in);
 
-            Scanner input = new Scanner(System.in);
+        ArrayList<String> ogrenci_notlari = new ArrayList<>();
 
-            ArrayList<String> ogrenci_notlari = new ArrayList<>();
+        int toplam = 0;
 
-            int toplam = 0;
+        int ortalama;
 
-            int ortalama;
+        int index = 1;
 
-            int index = 1;
+        String not;
 
-            String not;
+        System.out.println("Ogrencilerin notlarini girinz ve cikmak icin q ya basiniz");
 
-            System.out.println("Ogrencilerin notlarini girinz ve cikmak icin q ya basiniz");
+        int counter = 0;
 
-            int counter = 0;
+        do {
 
-            do {
+            System.out.println(index + ".ogrencinin  notunu  girinz");
 
-                System.out.println(index + ".ogrencinin  notunu  girinz");
+            not = input.next();
 
-                not = input.next();
+            if (not.equalsIgnoreCase("q")) {
 
-                if (not.equalsIgnoreCase("q")) {
+                break;
 
-                    break;
-
-                } else {
-                    ogrenci_notlari.add(not);
-                    index++;
-
-                }
-
-            } while (true);
-
-            System.out.println(ogrenci_notlari);
-
-            for (String w : ogrenci_notlari) {
-
-                toplam = toplam + Integer.parseInt(w);
+            } else {
+                ogrenci_notlari.add(not);
+                index++;
 
             }
 
-            ortalama = toplam / ogrenci_notlari.size();
+        } while (true);
 
-            for (String w : ogrenci_notlari) {
+        System.out.println(ogrenci_notlari);
 
-                if (Integer.parseInt(w) > ortalama) {
+        for (String w : ogrenci_notlari) {
 
-                    counter++;
+            toplam = toplam + Integer.parseInt(w);
 
-                }
+        }
+
+        ortalama = toplam / ogrenci_notlari.size();
+
+        for (String w : ogrenci_notlari) {
+
+            if (Integer.parseInt(w) > ortalama) {
+
+                counter++;
 
             }
 
-            System.out.println("sinifin ortalamasi = " + ortalama + "\nortalamayi gecen ogrenci syisi = " + counter);
+        }
 
-        }//Main
+        System.out.println("sinifin ortalamasi = " + ortalama + "\nortalamayi gecen ogrenci syisi = " + counter);
 
-    }
+    }//Main
+
+}
 

@@ -1,4 +1,5 @@
 package advanced_practice.practice04;
+
 import java.util.Scanner;
 
 public class Q03_DoWhile_TopunSicramasi {
@@ -19,10 +20,10 @@ Bu ana kadar aldigi toplam yolu ve yere vurma sayısını bulan do while code bl
         do {
             sicramaSayisi++;
             toplamYol += yukseklik;
-            yukseklik = yukseklik*0.75;
-            toplamYol +=yukseklik;
+            yukseklik = yukseklik * 0.75;
+            toplamYol += yukseklik;
 
-        }while (yukseklik>=1);
+        } while (yukseklik >= 1);
         System.out.println("sicramaSayisi = " + sicramaSayisi);
         System.out.printf("toplamYol = " + "%.2f", toplamYol);
 

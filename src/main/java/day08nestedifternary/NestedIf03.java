@@ -3,13 +3,10 @@
 package day08nestedifternary;
 
 
-
 import java.util.Scanner;
 
 
-
 public class NestedIf03 {
-
 
 
     public static void main(String[] args) {
@@ -40,55 +37,46 @@ public class NestedIf03 {
         String pwd = input.nextLine();
 
 
-
         char firstChar = pwd.charAt(0);
 
 
-
-        if(firstChar>='A' && firstChar<='Z'){
-
+        if (firstChar >= 'A' && firstChar <= 'Z') {
 
 
-            if(firstChar=='A'){
+            if (firstChar == 'A') {
 
                 System.out.println("Gecerli Password");
 
-            }else{
+            } else {
 
                 System.out.println("Gecersiz Password cunku buyuk harf ama 'A' degil...");
 
             }
 
 
-
-        }else if(firstChar>='a' && firstChar<='z'){
-
+        } else if (firstChar >= 'a' && firstChar <= 'z') {
 
 
-            if(firstChar=='z'){
+            if (firstChar == 'z') {
 
                 System.out.println("Gecerli Password");
 
-            }else{
+            } else {
 
                 System.out.println("Gecersiz password cunku kucuk harf ama 'z' degil...");
 
             }
 
 
-
-        }else{
-
+        } else {
 
 
             System.out.println("Ilk character harf olmali");
 
 
-
         }
 
     }
-
 
 
 }

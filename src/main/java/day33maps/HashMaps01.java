@@ -1,4 +1,5 @@
 package day33maps;
+
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -47,8 +48,8 @@ public class HashMaps01 {
         Collection<Integer> hmValues = hm.values();
         int sum = 0;
 
-        for(Integer w : hmValues){
-            if(w!=null) {
+        for (Integer w : hmValues) {
+            if (w != null) {
                 sum = sum + w;
             }
         }
@@ -79,9 +80,9 @@ public class HashMaps01 {
         System.out.println(salaries.values());
         String teacherName = "Tom";
 
-        if(salaries.keySet().contains(teacherName)) {
+        if (salaries.keySet().contains(teacherName)) {
             salaries.put(teacherName, 12000);
-        }else {
+        } else {
             salaries.putIfAbsent(teacherName, 11000);
         }
         System.out.println(salaries);
@@ -99,15 +100,15 @@ public class HashMaps01 {
         //Map'i Set'e cevirdigimizde Set'in butun ozelliklerini kullanabiliriz. Mesela loop gibi.
         //entrySet(); method'unu kullandiginizda elde ettiginiz Set'in elemanlari "Map.Entry<String,Integer>" seklinde bir Map olur.
         //Bu yuzden elemanlar icin Map method'lari kullanilabilir.
-        Set<Map.Entry<String,Integer>> myEntries = hm.entrySet();
+        Set<Map.Entry<String, Integer>> myEntries = hm.entrySet();
         System.out.println(myEntries);// [null=18000000, Myanmar=null, USA=500000000, Bhutan=35000000, Germany=83000000, Albania=2800000, India=700000000]
 
         //Example 3: Ulke ismindeki character sayisini ulke nufusuna ekleyen ve sonucu console yazdiran kodu yaziniz
 
         //[null=18000000, Myanmar=null, USA=500000000, Bhutan=35000000, Germany=83000000, Albania=2800000, India=700000000]
-        for(Map.Entry<String,Integer> w : myEntries){
+        for (Map.Entry<String, Integer> w : myEntries) {
 
-            if(w.getValue()!=null && w.getKey()!=null) {
+            if (w.getValue() != null && w.getKey() != null) {
                 int toplam = w.getValue() + w.getKey().length();
                 System.out.println(toplam);
             }

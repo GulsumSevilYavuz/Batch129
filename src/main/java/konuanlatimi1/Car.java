@@ -5,7 +5,7 @@ public class Car {
 
     //Method (Aktif Ozellikler)==>
 
-    public String model= "Corolla";//pasif ozellikler Variable
+    public String model = "Corolla";//pasif ozellikler Variable
 
     public int fiyat = 200000;
 
@@ -13,35 +13,32 @@ public class Car {
     public static void main(String[] args) {
 
 
-
         //Class ismini yazin #Objeye isim verin   =   new keywordunu kullanin  Class ismini ()
 
-        Car                myCorolla          =   new                        Car();
+        Car myCorolla = new Car();
 
-        System.out.println("fiyati"+myCorolla.fiyat);
+        System.out.println("fiyati" + myCorolla.fiyat);
 
-        System.out.println("modeli"+myCorolla.model);
+        System.out.println("modeli" + myCorolla.model);
 
         myCorolla.hareket();
 
         myCorolla.dur();
 
 
-
     }//main'in  bodysi
 
-    public void hareket(){//Aktif ozellikler Methodlar
+    public void hareket() {//Aktif ozellikler Methodlar
 
         System.out.println("Toyota hizli hareket eder...");
 
     }
 
-    public void dur(){//Aktif ozellikler Methodlar
+    public void dur() {//Aktif ozellikler Methodlar
 
         System.out.println("Toyota guvenle durur...");
 
     }
-
 
 
 }//Class body'si

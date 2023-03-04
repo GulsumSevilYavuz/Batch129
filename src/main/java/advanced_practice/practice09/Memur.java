@@ -1,6 +1,6 @@
 package advanced_practice.practice09;
 
-public class Memur extends Banka{
+public class Memur extends Banka {
     @Override
 
     public double faizHesapla(double alinanakKredi) {

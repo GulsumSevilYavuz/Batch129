@@ -10,32 +10,32 @@ public class StringBuilderKiyas {
 
     public static void main(String[] args) {
 
-        String str ="Merhaba";
+        String str = "Merhaba";
 
-        long time1 =System.nanoTime();
-        for (int i = 0; i <1000 ; i++) {
-            str+=" ";
+        long time1 = System.nanoTime();
+        for (int i = 0; i < 1000; i++) {
+            str += " ";
         }
         long time2 = System.nanoTime();
-        long stringSure = time2-time1;
+        long stringSure = time2 - time1;
         System.out.println("stringSure = " + stringSure);
 
 
         ////////////////// ************************* \\\\\\\\\\\\\\\\\\\\\\
         StringBuilder sb = new StringBuilder("Merhaba");
-        long time3 =System.nanoTime();
-        for (int i = 0; i <1000 ; i++) {
-            sb=sb.append(" ");
+        long time3 = System.nanoTime();
+        for (int i = 0; i < 1000; i++) {
+            sb = sb.append(" ");
         }
-        long time4 =System.nanoTime();
-        long stringBuilderSure = time4-time3;
+        long time4 = System.nanoTime();
+        long stringBuilderSure = time4 - time3;
         System.out.println("stringBuilderSure = " + stringBuilderSure);
 
-        if(stringBuilderSure>stringSure){
+        if (stringBuilderSure > stringSure) {
             System.out.println("String Builder daha yavas calisti");
-        }else if(stringBuilderSure<stringSure){
+        } else if (stringBuilderSure < stringSure) {
             System.out.println("String daha yavas calisti");
-        }else
+        } else
             System.out.println("Her ikiside esit surede calisti");
     }
 }

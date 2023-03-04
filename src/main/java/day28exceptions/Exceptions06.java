@@ -4,11 +4,9 @@ public class Exceptions06 {
     public static void main(String[] args) {
 
 
-
         String s = "Java";
 
         getNumberOfChars(s);//4
-
 
 
         String t = "";
@@ -21,14 +19,12 @@ public class Exceptions06 {
         getNumberOfChars(u);//NullPointerException
 
 
-
     }
-
 
 
     //String'in degeri "null" oldugunda String Class'daki bazi methodlari kullanamayiz. Kullanirsaniz Java "NullPointerException" atar
 
-    public static void getNumberOfChars(String s){
+    public static void getNumberOfChars(String s) {
 
         try {
 
@@ -36,7 +32,7 @@ public class Exceptions06 {
 
             System.out.println(numOfChars);
 
-        }catch(NullPointerException e){
+        } catch (NullPointerException e) {
 
             System.out.println("null degeri icin bazi method'lar kullanilamaz");
 

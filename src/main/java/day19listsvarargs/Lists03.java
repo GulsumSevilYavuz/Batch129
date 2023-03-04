@@ -37,25 +37,25 @@ public class Lists03 {
         int counter = 0;
         String num = "";
 
-        do{
+        do {
             System.out.println("Lutfen 1 ile 10 arasinda bir tam sayi giriniz");
             num = input.next();
 
 
-            if(num.equalsIgnoreCase("Q")){
+            if (num.equalsIgnoreCase("Q")) {
                 break;
 
-            }else if(numsList.contains(num)){
+            } else if (numsList.contains(num)) {
                 numsList.set(numsList.indexOf(num), "Bingo");
                 counter++;
-            }else{
+            } else {
                 numsList.add(num);
             }
-        }while(counter!= numsList.size());
+        } while (counter != numsList.size());
 
-        if(!num.equalsIgnoreCase("Q")) {
+        if (!num.equalsIgnoreCase("Q")) {
             System.out.println("Kazandiniz");
-        }else{
+        } else {
             System.out.println("Oyundan isteyerek ayrildiniz, tekrar bekleriz");
         }
 

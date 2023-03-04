@@ -1,6 +1,6 @@
 package practice_daytime.daytime08;
 
-public class Safari extends  Browser {
+public class Safari extends Browser {
 
     @Override
 

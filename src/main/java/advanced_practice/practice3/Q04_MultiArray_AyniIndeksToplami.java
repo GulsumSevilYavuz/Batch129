@@ -26,21 +26,16 @@ public class Q04_MultiArray_AyniIndeksToplami {
         int limit;
 
 
-
         for (int i = 0; i < arr1.length; i++) {
-
 
 
             limit = arr1[i].length;
 
 
-
             if (limit > arr2[i].length) {
 
 
-
                 limit = arr2[i].length;
-
 
 
             }
@@ -49,13 +44,10 @@ public class Q04_MultiArray_AyniIndeksToplami {
             for (int j = 0; j < limit; j++) {
 
 
-
                 toplam = arr1[i][j] + arr2[i][j];
 
 
-
                 System.out.println("arr1[" + i + "][" + j + "] + arr2[" + i + "][" + j + "]= " + toplam);
-
 
 
             }

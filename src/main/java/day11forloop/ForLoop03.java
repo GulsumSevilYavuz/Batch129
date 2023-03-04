@@ -8,7 +8,7 @@ public class ForLoop03 {
         String s = "Java";
         String t = "";
 
-        for(int i=s.length()-1; i>=0; i--){
+        for (int i = s.length() - 1; i >= 0; i--) {
             t = t + s.charAt(i);
         }
         System.out.println(t);
@@ -21,15 +21,15 @@ public class ForLoop03 {
 
         String ters = "";
 
-        for(int i=duz.length()-1; i>=0; i--){
+        for (int i = duz.length() - 1; i >= 0; i--) {
 
             ters = ters + duz.charAt(i);
 
         }
 
-        if(duz.equalsIgnoreCase(ters)){
+        if (duz.equalsIgnoreCase(ters)) {
             System.out.println(duz + " : Palindrome'dur");
-        }else{
+        } else {
             System.out.println(duz + " : Palindrome degildir");
         }
     }

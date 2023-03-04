@@ -9,7 +9,7 @@ public class Vehicle {
 
      */
 
-    public Vehicle(){
+    public Vehicle() {
         System.out.println("Vehicle 1");
     }
 

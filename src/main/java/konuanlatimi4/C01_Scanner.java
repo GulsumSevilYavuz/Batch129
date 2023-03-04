@@ -14,34 +14,31 @@ public class C01_Scanner {
      */
 
     public static void main(String[] args) {
-        Scanner input =new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.println("TechProEd spor salonuna hosgeldiniz....");
         System.out.println("Lutfen adinizi soyadinizi giriniz...");
-        String tamIsim =input.nextLine();
+        String tamIsim = input.nextLine();
         System.out.println("Lutfen yasinizi giriniz");
         byte yas = input.nextByte();
 
         System.out.println("Lutfen kilonuzu giriniz");
-        double kilo=input.nextDouble();
+        double kilo = input.nextDouble();
         System.out.println("Lutfen boyunuzu giriniz");
         double boy = input.nextDouble();
 
-        int aylik_Ucret =20;
-        System.out.println("aylik_Ucret = " + aylik_Ucret+" $");
+        int aylik_Ucret = 20;
+        System.out.println("aylik_Ucret = " + aylik_Ucret + " $");
 
         System.out.println("Lutfen uyelik suresini giriniz");
 
-        int aylik =input.nextInt();
-        int toplam_tutar =aylik_Ucret*aylik;
+        int aylik = input.nextInt();
+        int toplam_tutar = aylik_Ucret * aylik;
 
-        System.out.println("toplam_tutar = " + toplam_tutar+" $");
+        System.out.println("toplam_tutar = " + toplam_tutar + " $");
 
-        System.out.println("isim= " + tamIsim+ "\nYas : "+yas+"\nKilo : "+kilo+"\nBoy : "+boy+
-                "\nOdenecek tutar : "+toplam_tutar+" $");
-
-
-
+        System.out.println("isim= " + tamIsim + "\nYas : " + yas + "\nKilo : " + kilo + "\nBoy : " + boy +
+                "\nOdenecek tutar : " + toplam_tutar + " $");
 
 
     }

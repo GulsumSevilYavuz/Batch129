@@ -22,18 +22,19 @@ public class Exceptions05 {
     //Exception Class'lar arasinda "parent - child" iliskisi varsa, ya child class'i uste yazarak child ve parent class'lar
     //icin ozellestirilmis code'lar yazarsiniz.(Hirsiz icin 155, hasta icin 112 gibi)
     //Veya child'i hic kullanmaz sadece parent ile exception'lari handle etmeye calisirsiniz.(Hirsiz icin 911, hasta icin 911 gibi)
-    public static void getCharFromString(String s, int a, int b){
+    public static void getCharFromString(String s, int a, int b) {
 
-        try{
-            int idx = a/b;
+        try {
+            int idx = a / b;
 
             char ch = s.charAt(idx);
 
             System.out.println(ch);
 
-        }catch(ArithmeticException e){
+        } catch (ArithmeticException e) {
             System.out.println("Do not divide by zero");
-        }catch(StringIndexOutOfBoundsException e){
+        } catch (StringIndexOutOfBoundsException e) {
             System.out.println("Olmayan index kullandiniz");
-        }}
+        }
     }
+}

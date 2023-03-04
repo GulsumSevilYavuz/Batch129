@@ -5,7 +5,7 @@ public class Kumanda {
     private double genislik;
     private double yukseklik;
     private double ekranBuyuklugu;
-    private int maxVolume= 100;
+    private int maxVolume = 100;
     private int ses = 10;
     private boolean guc;
 
@@ -17,8 +17,8 @@ public class Kumanda {
 
     // kanalDegistirme()
 
-    public  double kanalDegistirme(int kanal){
-        switch(kanal){
+    public double kanalDegistirme(int kanal) {
+        switch (kanal) {
             case 1:
                 return 30.56;//A kanali
             case 2:
@@ -30,22 +30,22 @@ public class Kumanda {
     }
 
 
-    public void gucDugmesi(){
-        this.guc =!guc;
+    public void gucDugmesi() {
+        this.guc = !guc;
     }
 
-    public int sesAzaltma(){
+    public int sesAzaltma() {
 
-        if(ses>0){
+        if (ses > 0) {
             ses--;
         }
         return ses;
     } //sesAzaltma()
 
-    public int sesArtirma(){
+    public int sesArtirma() {
 
-        if(ses<maxVolume){
-            ses ++;
+        if (ses < maxVolume) {
+            ses++;
         }
         return ses;
     }

@@ -3,13 +3,10 @@ package day15arrays;
 import java.util.Arrays;
 
 
-
 public class Arrays02 {
 
 
-
     public static void main(String[] args) {
-
 
 
         //Example 2: Bir Stringdeki sesli harflerin sayisini bulan kodu yaziniz
@@ -19,13 +16,11 @@ public class Arrays02 {
         String s = "Java brings you money";
 
 
-
         //1.Yol: use replaceAll()
 
         int vowels = s.replaceAll("[^aeiouAEIOU]", "").length();
 
         System.out.println(vowels);
-
 
 
         //2.Yol: use Array - Loop
@@ -35,14 +30,12 @@ public class Arrays02 {
         System.out.println(Arrays.toString(letters));// [J, a, v, a,  , b, r, i, n, g, s,  , y, o, u,  , m, o, n, e, y]
 
 
-
         int counter = 0;
 
 
+        for (String w : letters) {
 
-        for(String w : letters){
-
-            switch(w.toLowerCase()){
+            switch (w.toLowerCase()) {
 
                 case "a":
 

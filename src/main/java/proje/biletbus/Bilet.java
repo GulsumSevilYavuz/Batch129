@@ -9,7 +9,7 @@ public class Bilet {
         int km = 0;
         int yas = 0;
         int yolculukTipi = 1;
-        String plakaNumarasi ="78 MB 78";
+        String plakaNumarasi = "78 MB 78";
         System.out.println("Lutfen gideceginiz mesafeyi km olarak veriniz");
         km = input.nextInt();
         System.out.println("Lutfen yasinizi giriniz");
@@ -19,7 +19,7 @@ public class Bilet {
         yolculukTipi = input.nextInt();
         if (km > 0 && yas > 0 && (yolculukTipi == 1 || yolculukTipi == 2)) {
             double biletUcreti = km * 0.10;
-            System.out.println("Indirimsiz Bilet Ucreti "+biletUcreti);
+            System.out.println("Indirimsiz Bilet Ucreti " + biletUcreti);
             double yasIndirimOrani = 0;
             if (yas < 12) {
                 yasIndirimOrani = 0.5;
@@ -37,24 +37,25 @@ public class Bilet {
 
             biletUcreti -= biletUcreti * yasIndirimOrani;
 
-            if(yolculukTipi==2){
-                biletUcreti -=biletUcreti*0.2;
+            if (yolculukTipi == 2) {
+                biletUcreti -= biletUcreti * 0.2;
                 biletUcreti *= 2;
             }
-            biletDokum(plakaNumarasi,km,yolculukTipi,biletUcreti);
-            System.out.println("Bilet Ucreti "+biletUcreti);
+            biletDokum(plakaNumarasi, km, yolculukTipi, biletUcreti);
+            System.out.println("Bilet Ucreti " + biletUcreti);
 
-        }else
+        } else
             System.out.println("Hatali Veri Girdiniz......");
     }//main
-    private static void biletDokum(String plakaNumarasi, int km, int yolculukTipi,double biletUcreti) {
-        System.out.println("======================= Bilet Dokum =============================");
-        System.out.println("Otobusun Plakasi "+ plakaNumarasi);
-        System.out.println("Mesafe "+ km);
-        System.out.println("Yolculuk Tipi "+ (yolculukTipi== 1 ? "Tek Yon" : "Gidis Donus "));
-        System.out.println("Bilet Ucreti "+biletUcreti);
 
-        slowPrint("KEYIFLI YOLCULUKLAR DILERIZ.....",50);
+    private static void biletDokum(String plakaNumarasi, int km, int yolculukTipi, double biletUcreti) {
+        System.out.println("======================= Bilet Dokum =============================");
+        System.out.println("Otobusun Plakasi " + plakaNumarasi);
+        System.out.println("Mesafe " + km);
+        System.out.println("Yolculuk Tipi " + (yolculukTipi == 1 ? "Tek Yon" : "Gidis Donus "));
+        System.out.println("Bilet Ucreti " + biletUcreti);
+
+        slowPrint("KEYIFLI YOLCULUKLAR DILERIZ.....", 50);
     }
 
     public static void slowPrint(String text, int delay) {

@@ -30,18 +30,19 @@ public class C01_Varargs {
         String str5 = "Guzel";
 
 
-        concat(str1, str2, str3, str4,str5);
+        concat(str1, str2, str3, str4, str5);
     }//main
 
     private static void concat(String... str) {
 
-        String sonuc="";
-        for (String w :str
+        String sonuc = "";
+        for (String w : str
         ) {
-            sonuc+=w+" ";
+            sonuc += w + " ";
 
 
-        }    System.out.println(sonuc);
+        }
+        System.out.println(sonuc);
 
 
     }//method

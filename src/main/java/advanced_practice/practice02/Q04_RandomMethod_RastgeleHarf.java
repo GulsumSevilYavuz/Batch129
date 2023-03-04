@@ -21,11 +21,9 @@ public class Q04_RandomMethod_RastgeleHarf {
     public static void main(String[] args) {
 
 
-
         String rastgeleHarf = rastgeleHarf().toLowerCase();
 
         System.out.println(rastgeleHarf);
-
 
 
         switch (rastgeleHarf) {
@@ -59,11 +57,9 @@ public class Q04_RandomMethod_RastgeleHarf {
                 System.out.println("Diğer karakterler");
 
 
-
         }
 
     }
-
 
 
     public static String rastgeleHarf() {
@@ -75,11 +71,9 @@ public class Q04_RandomMethod_RastgeleHarf {
         int rastgeleIndex = (int) (Math.random() * maxIndex);
 
 
-
         return alfabe.substring(rastgeleIndex, rastgeleIndex + 1);
 
 
-
-}
+    }
 
 }

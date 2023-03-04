@@ -38,7 +38,6 @@ public class AracIsteme { //Pojo class, depo class'i
     }
 
 
-
     public String getAlinacakSehir() {
 
         return alinacakSehir;
@@ -137,6 +136,7 @@ public class AracIsteme { //Pojo class, depo class'i
     public void setGunlukKiralamaUcreti(double gunlukKiralamaUcreti) {
         this.gunlukKiralamaUcreti = gunlukKiralamaUcreti;
     }
+
     @Override
     public String toString() {
         return "AracIsteme{" +

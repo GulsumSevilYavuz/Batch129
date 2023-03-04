@@ -1,5 +1,7 @@
 package advanced_practice.practice3;
+
 import java.util.Scanner;
+
 public class Q03_DoWhile_TahminOyunu {
 
 
@@ -10,7 +12,7 @@ public class Q03_DoWhile_TahminOyunu {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int rastgelleSayi = (int) (Math.random()*101);
+        int rastgelleSayi = (int) (Math.random() * 101);
         System.out.println("0-100 arası(dahil) bir tamsayı giriniz");
         int sayi;
         int sayac = 10;
@@ -19,24 +21,24 @@ public class Q03_DoWhile_TahminOyunu {
             sayac--;
             sayi = input.nextInt();
 
-            if(sayi<rastgelleSayi){
-                System.out.println(sayac+" hakkınız kaldı");
+            if (sayi < rastgelleSayi) {
+                System.out.println(sayac + " hakkınız kaldı");
                 System.out.println("Daha büyük bir sayı giriniz");
 
-            } else if (sayi>rastgelleSayi) {
-                System.out.println(sayac+" hakkınız kaldı");
+            } else if (sayi > rastgelleSayi) {
+                System.out.println(sayac + " hakkınız kaldı");
                 System.out.println("Daha küçük bir sayı giriniz");
 
-            }else {
-                System.out.println("Tebrikler!!! "+(10-sayac)+" tahminde sayiyi buldunuz. Puaniniz: "+(sayac+1)*10);
+            } else {
+                System.out.println("Tebrikler!!! " + (10 - sayac) + " tahminde sayiyi buldunuz. Puaniniz: " + (sayac + 1) * 10);
             }
-            if(sayac == 0){
+            if (sayac == 0) {
                 System.out.println("Hakkınız bitti");
                 //Ödev: Yeniden oynama hakkı ...
                 break;
             }
 
-        }while (sayi!=rastgelleSayi);
+        } while (sayi != rastgelleSayi);
 
     }
 }

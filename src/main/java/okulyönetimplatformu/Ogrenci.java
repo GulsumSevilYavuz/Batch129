@@ -12,6 +12,7 @@ public class Ogrenci {
     private int ogrenciNumara;
 
     private int ogrenciSinif;
+
     public Ogrenci(String ogrenciAd, String ogrenciSoyad, String ogrenciId, int ogrenciYas, int ogrenciNumara, int ogrenciSinif) {
 
         this.ogrenciAd = ogrenciAd;

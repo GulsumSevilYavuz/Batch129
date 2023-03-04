@@ -1,4 +1,6 @@
-package day27encapsulationabstraction;public abstract class Courses {
+package day27encapsulationabstraction;
+
+public abstract class Courses {
 
     /*
         1)Bazen method body'sini yazmak gerekmez, bu durumlarda body'siz method olusturmak gerekir.
@@ -22,7 +24,7 @@ package day27encapsulationabstraction;public abstract class Courses {
 
     public abstract void math();
 
-    public void art(){
+    public void art() {
         System.out.println("Painting...");
     }
 

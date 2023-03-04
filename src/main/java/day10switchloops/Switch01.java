@@ -3,13 +3,10 @@
 package day10switchloops;
 
 
-
 import java.util.Scanner;
 
 
-
 public class Switch01 {
-
 
 
     public static void main(String[] args) {
@@ -29,8 +26,7 @@ public class Switch01 {
         int numOfMonth = input.nextInt();
 
 
-
-        switch(numOfMonth){
+        switch (numOfMonth) {
 
             case 1:
 
@@ -100,7 +96,6 @@ public class Switch01 {
 
 
     }
-
 
 
 }

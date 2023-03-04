@@ -3,7 +3,6 @@ package day08nestedifternary;
 import java.util.Scanner;
 
 
-
 public class C01_IfStatement {
 
     public static void main(String[] args) {
@@ -25,13 +24,11 @@ public class C01_IfStatement {
          */
 
 
-
         Scanner input = new Scanner(System.in);
 
         System.out.println(" Lutfen gun ismi giriniz");
 
         String gun = input.next().toLowerCase();//kucuk harfe cevirdik Cuma
-
 
 
         if (gun.equals("cuma")) {
@@ -51,7 +48,6 @@ public class C01_IfStatement {
             System.out.println("Kutsal Gun Degil");
 
     }
-
 
 
 }

@@ -33,7 +33,7 @@ public class MaymunMeselesi {
         } while (numberofbananas >= 4);
         if (numberofbananas < 4) {
             System.out.println("Kalan muz Sayisi " + numberofbananas);
-            System.out.println("Öldugu gun"+survivalDays);
+            System.out.println("Öldugu gun" + survivalDays);
         }
     }
 }

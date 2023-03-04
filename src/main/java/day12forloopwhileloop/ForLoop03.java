@@ -1,4 +1,5 @@
 package day12forloopwhileloop;
+
 import java.util.Scanner;
 
 public class ForLoop03 {
@@ -17,9 +18,9 @@ public class ForLoop03 {
         System.out.println("Satir(row) sayisini giriniz...");
         int row = input.nextInt();
 
-        for(int i=1; i<=row; i++){
+        for (int i = 1; i <= row; i++) {
 
-            for(int k=row; k>=i; k--){
+            for (int k = row; k >= i; k--) {
                 System.out.print("* ");
             }
 

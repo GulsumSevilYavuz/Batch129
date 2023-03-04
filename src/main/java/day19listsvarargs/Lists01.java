@@ -20,8 +20,8 @@ public class Lists01 {
 
         List<Integer> newList = new ArrayList<>();
         // 2, 3, 2, 2, 3, 5
-        for(Integer w : myList){
-            if(!newList.contains(w)){
+        for (Integer w : myList) {
+            if (!newList.contains(w)) {
                 newList.add(w);
             }
         }
@@ -47,19 +47,19 @@ public class Lists01 {
             Kullanicidan gelen urun ismini de kucuk harfe cevirin
          */
 
-        do{
+        do {
             System.out.println("Aradiginiz urunun ismini giriniz...");
             String p = input.nextLine();
 
-            if(p.equalsIgnoreCase("Q")){
+            if (p.equalsIgnoreCase("Q")) {
                 break;
-            }else if(products.contains(p)){
+            } else if (products.contains(p)) {
                 System.out.println(p + " is in stock");
-            }else {
+            } else {
                 System.out.println(p + " is out of stock!...");
             }
 
-        }while(true);
+        } while (true);
 
         System.out.println("Sitemizi kullandiginiz icin tesekkur eder, tekrar bekleriz...");
     }

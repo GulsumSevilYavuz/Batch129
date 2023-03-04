@@ -8,16 +8,16 @@ public class WhileLoop01 {
         //Example 1: 3'den 6'ya kadar tamsayilari console'a yazdiriniz
 
         //1.Yol: for-loop
-        for(int i=3; i<7; i++){
+        for (int i = 3; i < 7; i++) {
             System.out.print(i + " ");
         }
 
         System.out.println();
 
         //2.Yol: while-loop
-        int i=3;
+        int i = 3;
 
-        while(i<7){
+        while (i < 7) {
             System.out.print(i + " ");
             i++;
         }
@@ -27,8 +27,8 @@ public class WhileLoop01 {
         //Example 2: 23'den 12'ye kadar cift tamsayilari console'a yazdiriniz
         int k = 23;
 
-        while(k>11){
-            if(k%2==0){
+        while (k > 11) {
+            if (k % 2 == 0) {
                 System.out.print(k + " ");
             }
             k--;
@@ -42,9 +42,9 @@ public class WhileLoop01 {
         num = Math.abs(num);
         int sum = 0;
 
-        while(num>0){
-            sum = sum + num%10;
-            num/=10;
+        while (num > 0) {
+            sum = sum + num % 10;
+            num /= 10;
         }
         System.out.println(sum);
     }

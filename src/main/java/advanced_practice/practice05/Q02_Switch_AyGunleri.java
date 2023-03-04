@@ -1,6 +1,6 @@
 package advanced_practice.practice05;
 
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Q02_Switch_AyGunleri {
       /*
@@ -17,14 +17,19 @@ public class Q02_Switch_AyGunleri {
         int ay = input.nextInt();
 
         switch (ay) {
-            case 1: case 3:
-            case 5: case 7:
-            case 8: case 10:
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
             case 12:
                 System.out.println("Girdiğiniz ayın gün sayısı: 31");
                 break;
-            case 4: case 6:
-            case 9: case 11:
+            case 4:
+            case 6:
+            case 9:
+            case 11:
                 System.out.println("Girdiğiniz ayın gün sayısı: 30");
                 break;
             case 2:
